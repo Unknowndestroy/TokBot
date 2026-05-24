@@ -1,0 +1,54 @@
+{
+  "breach_of_agreement": {
+    "description": "Breach of Agreement",
+    "reason": "Agreed upon service term or agreement was broken or not properly followed"
+  },
+  "nitro_scams": {
+    "description": "Nitro Scams",
+    "reason": "Used for most scams involving Discord Nitro"
+  },
+  "transfer_scams": {
+    "description": "Transfer Scams",
+    "reason": "Money transfer scams such as money doubling, guaranteed gambling"
+  },
+  "exchange_scams": {
+    "description": "Exchange Scams",
+    "reason": "Scams involving the exchange of funds (Ex. Crypto -> USD)"
+  },
+  "giveaway_scams": {
+    "description": "Giveaway Scams",
+    "reason": "User does not deliver the giveaway prize (crypto / FIAT currency rewards only)"
+  },
+  "invite_rewards_scam": {
+    "description": "Invite Rewards Scam",
+    "reason": "Scams that involve server invite rewards (crypto / FIAT currency rewards only)"
+  },
+  "impersonation": {
+    "description": "Impersonation with Intent to Defraud",
+    "reason": "Impersonation of a reputable user with intent to scam"
+  },
+  "mm_refusal": {
+    "description": "MM Refusal",
+    "reason": "User directly or indirectly refuses to use a trusted and mutual middleman for a deal (Ex. Will only use their friend)"
+  },
+  "attempted_scam": {
+    "description": "Attempted Scam",
+    "reason": "Scam attempt takes place"
+  },
+  "submitting_fake_evidence": {
+    "description": "Submitting Fake Evidence",
+    "reason": "User submits false statements or edited evidence to us"
+  },
+  "account_takeover": {
+    "description": "Account Takeover / Attempted Account Takeover",
+    "reason": "User or service attempts or succeeds in stealing an account (Ex. Phishing link that grabs discord login information)"
+  },
+  "cooperation_with_scammer": {
+    "description": "Cooperation with a Known Scammer",
+    "reason": "User is shown to be working with or aiding a known scammer or a scammer-owned service or having admin perms in their server."
+  },
+  "alt_account_reports": {
+    "description": "Alt Account Reports",
+    "reason": "A previously flagged scammer or DWC user returns under a new account"
+  }
+}
