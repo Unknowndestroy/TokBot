@@ -1,34 +1,34 @@
 {
   "breach_of_agreement": {
-    "description": "Breach of Agreement",
+    "description": "Broke Agreement", 
     "reason": "Agreed upon service term or agreement was broken or not properly followed"
   },
   "nitro_scams": {
-    "description": "Nitro Scams",
+    "description": "Nitro Scammer", 
     "reason": "Used for most scams involving Discord Nitro"
   },
   "transfer_scams": {
-    "description": "Transfer Scams",
+    "description": "Transfer Scammer", 
     "reason": "Money transfer scams such as money doubling, guaranteed gambling"
   },
   "exchange_scams": {
-    "description": "Exchange Scams",
+    "description": "Exchange Scammer", 
     "reason": "Scams involving the exchange of funds (Ex. Crypto -> USD)"
   },
   "giveaway_scams": {
-    "description": "Giveaway Scams",
+    "description": "Giveaway Scammer", 
     "reason": "User does not deliver the giveaway prize (crypto / FIAT currency rewards only)"
   },
   "invite_rewards_scam": {
-    "description": "Invite Rewards Scam",
+    "description": "Invite Rewards Scammer", 
     "reason": "Scams that involve server invite rewards (crypto / FIAT currency rewards only)"
   },
   "impersonation": {
-    "description": "Impersonation with Intent to Defraud",
+    "description": "Impersonated with Intent to Defraud", 
     "reason": "Impersonation of a reputable user with intent to scam"
   },
   "mm_refusal": {
-    "description": "MM Refusal",
+    "description": "Refused MM", 
     "reason": "User directly or indirectly refuses to use a trusted and mutual middleman for a deal (Ex. Will only use their friend)"
   },
   "attempted_scam": {
@@ -36,7 +36,7 @@
     "reason": "Scam attempt takes place"
   },
   "submitting_fake_evidence": {
-    "description": "Submitting Fake Evidence",
+    "description": "Submitted Fake Evidence", 
     "reason": "User submits false statements or edited evidence to us"
   },
   "account_takeover": {
@@ -44,11 +44,11 @@
     "reason": "User or service attempts or succeeds in stealing an account (Ex. Phishing link that grabs discord login information)"
   },
   "cooperation_with_scammer": {
-    "description": "Cooperation with a Known Scammer",
+    "description": "Cooperated with a Known Scammer", 
     "reason": "User is shown to be working with or aiding a known scammer or a scammer-owned service or having admin perms in their server."
   },
   "alt_account_reports": {
-    "description": "Alt Account Reports",
+    "description": "Reported Alt Account", 
     "reason": "A previously flagged scammer or DWC user returns under a new account"
   }
 }
