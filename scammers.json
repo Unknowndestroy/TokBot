@@ -9260,15 +9260,6 @@
     "timestamp": "2026-05-24T00:12:45.938961+00:00",
     "source": "TokBot MB"
   },
-  "1471192389719691400": {
-    "uid": 1471192389719691400,
-    "username": "redacted0x.",
-    "ban_type": "Ratter",
-    "reason": "usage of pussybuilder",
-    "manual": true,
-    "timestamp": "2026-05-24T00:12:46.363406+00:00",
-    "source": "TokBot MB"
-  },
   "1506022756536287442": {
     "uid": 1506022756536287442,
     "username": "fiery_papaya_45071",
@@ -9384,6 +9375,15 @@
     "reason": "pedophilistic activities",
     "manual": true,
     "timestamp": "2026-06-06T20:50:48.171542+00:00",
+    "source": "TokBot MB"
+  },
+  "1512256266607788155": {
+    "uid": 1512256266607788155,
+    "username": "hizoka0900",
+    "ban_type": "Pedophile",
+    "reason": "Pedophilistic activities",
+    "manual": true,
+    "timestamp": "2026-06-06T23:49:55.135765+00:00",
     "source": "TokBot MB"
   }
 }
