@@ -9385,5 +9385,23 @@
     "manual": true,
     "timestamp": "2026-06-06T23:49:55.135765+00:00",
     "source": "TokBot MB"
+  },
+  "1482104415526719660": {
+    "uid": 1482104415526719660,
+    "username": "loafazi",
+    "ban_type": "Scammer",
+    "reason": "account scamming",
+    "manual": true,
+    "timestamp": "2026-06-10T00:20:33.878013+00:00",
+    "source": "Scammer List"
+  },
+  "1500692745952690357": {
+    "uid": 1500692745952690357,
+    "username": "highharmonygeneration",
+    "ban_type": "Pedophile",
+    "reason": "pedophilistic activities | alt of 1434535665663479951",
+    "manual": true,
+    "timestamp": "2026-06-10T11:44:07.037928+00:00",
+    "source": "TokBot MB"
   }
 }
