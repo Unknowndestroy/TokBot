@@ -8183,7 +8183,7 @@
   "1423971044628107354": {
     "uid": 1423971044628107354,
     "username": "richoffresellings",
-    "ban_type": "Breach of Agreement",
+    "ban_type": "Breached an Agreement",
     "reason": "Breach of Agreement",
     "manual": true,
     "timestamp": "2026-05-19T00:56:08Z",
@@ -9399,9 +9399,594 @@
     "uid": 1500692745952690357,
     "username": "highharmonygeneration",
     "ban_type": "Pedophile",
-    "reason": "pedophilistic activities | alt of 1434535665663479951",
+    "reason": "pedophilistic activities",
     "manual": true,
     "timestamp": "2026-06-10T11:44:07.037928+00:00",
+    "source": "TokBot MB"
+  },
+  "808546229432090654": {
+    "uid": 808546229432090654,
+    "username": "awhx",
+    "ban_type": "Pedophile",
+    "reason": "pedophilistic activities",
+    "manual": true,
+    "timestamp": "2026-06-11T10:11:38.300780+00:00",
+    "source": "TokBot MB"
+  },
+  "931810430756741160": {
+    "uid": 931810430756741160,
+    "username": "_thedishonouredone",
+    "ban_type": "Auto",
+    "reason": "Withdrawal scam (OCR)",
+    "manual": false,
+    "timestamp": "2026-06-15T14:48:00.686722+00:00",
+    "source": "TokBot MB"
+  },
+  "356120847133704193": {
+    "uid": 356120847133704193,
+    "username": "ybv2x2aikj1wax8bi16asybhwix9kksb",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:41.573681+00:00",
+    "source": "Scammer List"
+  },
+  "1166401693265698827": {
+    "uid": 1166401693265698827,
+    "username": "slazy_7",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:42.737862+00:00",
+    "source": "Scammer List"
+  },
+  "1482891239798870046": {
+    "uid": 1482891239798870046,
+    "username": "runejaroslav21",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:43.041018+00:00",
+    "source": "Scammer List"
+  },
+  "1482540592822096073": {
+    "uid": 1482540592822096073,
+    "username": "scottferrari706",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:43.423768+00:00",
+    "source": "Scammer List"
+  },
+  "1473394270617731103": {
+    "uid": 1473394270617731103,
+    "username": "cryptwalker461",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:44.696726+00:00",
+    "source": "Scammer List"
+  },
+  "549345066754506772": {
+    "uid": 549345066754506772,
+    "username": "cactusofc",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:44.994113+00:00",
+    "source": "Scammer List"
+  },
+  "1476145315328557086": {
+    "uid": 1476145315328557086,
+    "username": "dvorkbold339",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:45.286349+00:00",
+    "source": "Scammer List"
+  },
+  "1170651823875567687": {
+    "uid": 1170651823875567687,
+    "username": "neosrasb",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:45.567237+00:00",
+    "source": "Scammer List"
+  },
+  "1486342416549281853": {
+    "uid": 1486342416549281853,
+    "username": "lh0e",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:45.795792+00:00",
+    "source": "Scammer List"
+  },
+  "1490310772402946088": {
+    "uid": 1490310772402946088,
+    "username": "matrixcaruso204",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:46.216348+00:00",
+    "source": "Scammer List"
+  },
+  "1473034665739944127": {
+    "uid": 1473034665739944127,
+    "username": "sarabear84",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:46.509732+00:00",
+    "source": "Scammer List"
+  },
+  "1486908442760187904": {
+    "uid": 1486908442760187904,
+    "username": "janscott56",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:46.791779+00:00",
+    "source": "Scammer List"
+  },
+  "1187274040331743362": {
+    "uid": 1187274040331743362,
+    "username": "qritic",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:47.129462+00:00",
+    "source": "Scammer List"
+  },
+  "1478709453330317352": {
+    "uid": 1478709453330317352,
+    "username": "ferrijos813",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:47.405059+00:00",
+    "source": "Scammer List"
+  },
+  "1274648226330443900": {
+    "uid": 1274648226330443900,
+    "username": "eldoseller",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:51.327575+00:00",
+    "source": "Scammer List"
+  },
+  "1321907683569176640": {
+    "uid": 1321907683569176640,
+    "username": "drcwss",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:51.616719+00:00",
+    "source": "Scammer List"
+  },
+  "762242774073344010": {
+    "uid": 762242774073344010,
+    "username": "aurielyn",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:51.843155+00:00",
+    "source": "Scammer List"
+  },
+  "1476333670036930734": {
+    "uid": 1476333670036930734,
+    "username": "mavericksamuel387",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:52.126592+00:00",
+    "source": "Scammer List"
+  },
+  "1267646416159903837": {
+    "uid": 1267646416159903837,
+    "username": "sammyxghg",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:52.410424+00:00",
+    "source": "Scammer List"
+  },
+  "1498503971982020691": {
+    "uid": 1498503971982020691,
+    "username": "8pyl",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:52.690067+00:00",
+    "source": "Scammer List"
+  },
+  "1029877025525203035": {
+    "uid": 1029877025525203035,
+    "username": "meryterm",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:52.978223+00:00",
+    "source": "Scammer List"
+  },
+  "1475824474954666180": {
+    "uid": 1475824474954666180,
+    "username": "opticzeus224",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:53.270810+00:00",
+    "source": "Scammer List"
+  },
+  "1473383635166957759": {
+    "uid": 1473383635166957759,
+    "username": "radartoms908",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:53.560539+00:00",
+    "source": "Scammer List"
+  },
+  "1487278888156532818": {
+    "uid": 1487278888156532818,
+    "username": "wjcikpredator498",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:53.810751+00:00",
+    "source": "Scammer List"
+  },
+  "1479075484603252748": {
+    "uid": 1479075484603252748,
+    "username": "wisniewskileo513",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:54.144905+00:00",
+    "source": "Scammer List"
+  },
+  "1475093246496473209": {
+    "uid": 1475093246496473209,
+    "username": "robinsonharris58",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:54.463644+00:00",
+    "source": "Scammer List"
+  },
+  "1487422306371506357": {
+    "uid": 1487422306371506357,
+    "username": "rodriguezisaiah175",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:54.754587+00:00",
+    "source": "Scammer List"
+  },
+  "1486775954230743071": {
+    "uid": 1486775954230743071,
+    "username": "kueraonslaught38",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:55.059798+00:00",
+    "source": "Scammer List"
+  },
+  "1477138087032258754": {
+    "uid": 1477138087032258754,
+    "username": "blazeprez761",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:55.361518+00:00",
+    "source": "Scammer List"
+  },
+  "1480378791397294101": {
+    "uid": 1480378791397294101,
+    "username": "kainikolai978",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:55.670368+00:00",
+    "source": "Scammer List"
+  },
+  "1487369150614605936": {
+    "uid": 1487369150614605936,
+    "username": "volcanolee917",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:56.817694+00:00",
+    "source": "Scammer List"
+  },
+  "749212904078835784": {
+    "uid": 749212904078835784,
+    "username": "benoniop",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:57.196623+00:00",
+    "source": "Scammer List"
+  },
+  "1281743696479518800": {
+    "uid": 1281743696479518800,
+    "username": "lillycy",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:57.801744+00:00",
+    "source": "Scammer List"
+  },
+  "1472565000844476569": {
+    "uid": 1472565000844476569,
+    "username": "onyxli194",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:58.162847+00:00",
+    "source": "Scammer List"
+  },
+  "1451324596975435894": {
+    "uid": 1451324596975435894,
+    "username": "enzodavid809",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:58.457976+00:00",
+    "source": "Scammer List"
+  },
+  "1345727716573315072": {
+    "uid": 1345727716573315072,
+    "username": "ltir",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:58.693481+00:00",
+    "source": "Scammer List"
+  },
+  "1482353607960559656": {
+    "uid": 1482353607960559656,
+    "username": "christianfox_73507",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:58.985692+00:00",
+    "source": "Scammer List"
+  },
+  "1481975856803872830": {
+    "uid": 1481975856803872830,
+    "username": "involuptasetaliqu_16927",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:59.419570+00:00",
+    "source": "Scammer List"
+  },
+  "1482369012070613063": {
+    "uid": 1482369012070613063,
+    "username": "matthewcross_47120",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:45:59.736288+00:00",
+    "source": "Scammer List"
+  },
+  "1105502370177233028": {
+    "uid": 1105502370177233028,
+    "username": "wiqh",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:46:00.055496+00:00",
+    "source": "Scammer List"
+  },
+  "1498691394120974450": {
+    "uid": 1498691394120974450,
+    "username": "1xsplash",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:46:00.350226+00:00",
+    "source": "Scammer List"
+  },
+  "1479125954130608161": {
+    "uid": 1479125954130608161,
+    "username": "sitsintvoluptate_14596",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:46:00.674454+00:00",
+    "source": "Scammer List"
+  },
+  "1163541981306302595": {
+    "uid": 1163541981306302595,
+    "username": "qavivikukisejoc",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:46:00.989401+00:00",
+    "source": "Scammer List"
+  },
+  "1485361165130403840": {
+    "uid": 1485361165130403840,
+    "username": "emilioelite252",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:46:01.279417+00:00",
+    "source": "Scammer List"
+  },
+  "1482004451610071062": {
+    "uid": 1482004451610071062,
+    "username": "christianking_41943",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:46:01.567375+00:00",
+    "source": "Scammer List"
+  },
+  "1243920972038406167": {
+    "uid": 1243920972038406167,
+    "username": "pegnever",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:46:01.879341+00:00",
+    "source": "Scammer List"
+  },
+  "1482479742899978504": {
+    "uid": 1482479742899978504,
+    "username": "voptp65urocotid",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:46:03.550816+00:00",
+    "source": "Scammer List"
+  },
+  "1454849782995484819": {
+    "uid": 1454849782995484819,
+    "username": "jarvisv18",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:48:26.277903+00:00",
+    "source": "Scammer List"
+  },
+  "1366746209754021939": {
+    "uid": 1366746209754021939,
+    "username": "devona10p",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "ratting/phishing",
+    "manual": true,
+    "timestamp": "2026-06-16T15:48:27.065466+00:00",
+    "source": "Scammer List"
+  },
+  "1359980275609768219": {
+    "uid": 1359980275609768219,
+    "username": "livv62374",
+    "ban_type": "Alt",
+    "reason": "alt of 1484289980946845848",
+    "manual": true,
+    "timestamp": "2026-06-17T16:16:20.371670+00:00",
+    "source": "TokBot MB"
+  },
+  "1238824027251015710": {
+    "uid": 1238824027251015710,
+    "username": "iluvvkorea",
+    "ban_type": "Alt",
+    "reason": "alt of 1484289980946845848",
+    "manual": true,
+    "timestamp": "2026-06-17T16:16:21.816323+00:00",
+    "source": "TokBot MB"
+  },
+  "1516697053210873977": {
+    "uid": 1516697053210873977,
+    "username": "legitstuff0966",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1516655198519558225": {
+    "uid": 1516655198519558225,
+    "username": "realmegaowner0950",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1516760907709943939": {
+    "uid": 1516760907709943939,
+    "username": "megaaa0641",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1511867243917611088": {
+    "uid": 1511867243917611088,
+    "username": "updatemegalink.",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1515556287688212601": {
+    "uid": 1515556287688212601,
+    "username": "devyy0150",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1516917205349044324": {
+    "uid": 1516917205349044324,
+    "username": "trade03730",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1513860425819885728": {
+    "uid": 1513860425819885728,
+    "username": "goodseller0293",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1482718054411665553": {
+    "uid": 1482718054411665553,
+    "username": "gvbiv",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1516508918984085574": {
+    "uid": 1516508918984085574,
+    "username": "legit_mega0995",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1516345692292120627": {
+    "uid": 1516345692292120627,
+    "username": "maxseller0022",
+    "ban_type": "pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T03:32:54.853050",
+    "source": "TokBot MB"
+  },
+  "1422698721505837106": {
+    "uid": 1422698721505837106,
+    "username": "shilido079",
+    "ban_type": "Pedophile",
+    "reason": "megalinker - CP advertisement on /UkTxNjYszc",
+    "manual": true,
+    "timestamp": "2026-06-18T00:34:10.353789+00:00",
+    "source": "TokBot MB"
+  },
+  "1321975518794612786": {
+    "uid": 1321975518794612786,
+    "username": "edenmc0281_91341",
+    "ban_type": "Pedophile",
+    "reason": "pedophilistic activities + megalinker",
+    "manual": true,
+    "timestamp": "2026-06-18T00:42:05.904576+00:00",
     "source": "TokBot MB"
   }
 }
