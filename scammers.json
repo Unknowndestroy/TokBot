@@ -10114,5 +10114,32 @@
     "manual": true,
     "timestamp": "2026-06-18T19:18:28.528571+00:00",
     "source": "TokBot MB"
+  },
+  "1515002978275164187": {
+    "uid": 1515002978275164187,
+    "username": "nyxvries105",
+    "ban_type": "Auto",
+    "reason": "Withdrawal scam (OCR)",
+    "manual": false,
+    "timestamp": "2026-06-18T23:39:41.746958+00:00",
+    "source": "TokBot MB"
+  },
+  "1460005486182269134": {
+    "uid": 1460005486182269134,
+    "username": "tntclegitmega_99167",
+    "ban_type": "Pedophile",
+    "reason": "ownership of an CP content distributing server",
+    "manual": true,
+    "timestamp": "2026-06-18T23:52:44.687692+00:00",
+    "source": "TokBot MB"
+  },
+  "1397834986425679902": {
+    "uid": 1397834986425679902,
+    "username": "therobloxmaster121",
+    "ban_type": "Alt",
+    "reason": "pedophilistic activities | alt of 1301434354416877580",
+    "manual": true,
+    "timestamp": "2026-06-19T14:48:58.896435+00:00",
+    "source": "TokBot MB"
   }
 }
