@@ -10141,5 +10141,68 @@
     "manual": true,
     "timestamp": "2026-06-19T14:48:58.896435+00:00",
     "source": "TokBot MB"
+  },
+  "1510129273816748082": {
+    "uid": 1510129273816748082,
+    "username": "mickeymutiny.",
+    "ban_type": "Alt",
+    "reason": "pedophilistic activities | alt of 1511017977741443224",
+    "manual": true,
+    "timestamp": "2026-06-21T01:03:45.710298+00:00",
+    "source": "TokBot MB"
+  },
+  "1490706373179216064": {
+    "uid": 1490706373179216064,
+    "username": "kryon6767",
+    "ban_type": "Pedophile",
+    "reason": "CP trading server ownership",
+    "manual": true,
+    "timestamp": "2026-06-21T01:05:29.787354+00:00",
+    "source": "TokBot MB"
+  },
+  "1505499679670931476": {
+    "uid": 1505499679670931476,
+    "username": "infinityplayz05",
+    "ban_type": "Alt",
+    "reason": "alt of 1500692745952690357 | pedophilistic activities",
+    "manual": true,
+    "timestamp": "2026-06-21T23:04:15.350469+00:00",
+    "source": "TokBot MB"
+  },
+  "1132655339553177610": {
+    "uid": 1132655339553177610,
+    "username": "b5kq",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "Scamming, Ratting/Distributing Rats, Owner of an bot to steal accounts",
+    "manual": true,
+    "timestamp": "2026-06-21T23:04:57.628625+00:00",
+    "source": "TokBot MB"
+  },
+  "1352977790902734888": {
+    "uid": 1352977790902734888,
+    "username": "trendsyy",
+    "ban_type": "Alt",
+    "reason": "alt of 1132655339553177610 | Scamming, Ratting/Distributing Rats, Owner of an bot to steal accounts",
+    "manual": true,
+    "timestamp": "2026-06-21T23:10:15.403321+00:00",
+    "source": "TokBot MB"
+  },
+  "1484949317084250265": {
+    "uid": 1484949317084250265,
+    "username": "xthinhdepchai",
+    "ban_type": "Alt",
+    "reason": "alt of 1132655339553177610 | Scamming, Ratting/Distributing Rats, Owner of an bot to steal accounts",
+    "manual": true,
+    "timestamp": "2026-06-21T23:10:15.721631+00:00",
+    "source": "TokBot MB"
+  },
+  "785932302567473182": {
+    "uid": 785932302567473182,
+    "username": "mrp1gm4n",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "Scamming, Ratting/Distributing Rats, Owner of an bot to steal accounts",
+    "manual": true,
+    "timestamp": "2026-06-21T23:10:35.733843+00:00",
+    "source": "TokBot MB"
   }
 }
