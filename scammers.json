@@ -80,15 +80,6 @@
     "timestamp": "2026-04-15T18:59:08.752256",
     "source": "TokBot MB"
   },
-  "1219649227987095615": {
-    "uid": 1219649227987095615,
-    "username": "cherry.survival",
-    "ban_type": "Auto",
-    "reason": "Scam image detected",
-    "manual": false,
-    "timestamp": "2026-04-16T15:11:41.835938",
-    "source": "TokBot MB"
-  },
   "799919952949673996": {
     "uid": 799919952949673996,
     "username": "_jua1n_",
@@ -1457,24 +1448,6 @@
     "timestamp": "2026-04-19T19:43:16.237368",
     "source": "TokBot MB"
   },
-  "1432925429353807995": {
-    "uid": 1432925429353807995,
-    "username": "enoggy",
-    "ban_type": "Auto",
-    "reason": "fake discord login page",
-    "manual": false,
-    "timestamp": "2026-04-22T19:45:47.117248",
-    "source": "TokBot MB"
-  },
-  "882727024232366110": {
-    "uid": 882727024232366110,
-    "username": "vixss",
-    "ban_type": "Auto",
-    "reason": "fake discord login page",
-    "manual": false,
-    "timestamp": "2026-04-23T03:04:16.536856",
-    "source": "TokBot MB"
-  },
   "640583231187451935": {
     "uid": 640583231187451935,
     "username": "hyperionfowl7660",
@@ -1914,24 +1887,6 @@
     "reason": "\"ratting\"",
     "manual": true,
     "timestamp": "2026-04-29T19:15:46.436660",
-    "source": "TokBot MB"
-  },
-  "1020570238644920341": {
-    "uid": 1020570238644920341,
-    "username": "n6bw",
-    "ban_type": "Auto",
-    "reason": "Scam image detected",
-    "manual": false,
-    "timestamp": "2026-04-29T22:17:47.325559",
-    "source": "TokBot MB"
-  },
-  "1232312249419431936": {
-    "uid": 1232312249419431936,
-    "username": "bru2fast",
-    "ban_type": "Auto",
-    "reason": "Scam image detected",
-    "manual": false,
-    "timestamp": "2026-04-30T13:18:31.051999",
     "source": "TokBot MB"
   },
   "1351784568000217201": {
@@ -9413,15 +9368,6 @@
     "timestamp": "2026-06-11T10:11:38.300780+00:00",
     "source": "TokBot MB"
   },
-  "931810430756741160": {
-    "uid": 931810430756741160,
-    "username": "_thedishonouredone",
-    "ban_type": "Auto",
-    "reason": "Withdrawal scam (OCR)",
-    "manual": false,
-    "timestamp": "2026-06-15T14:48:00.686722+00:00",
-    "source": "TokBot MB"
-  },
   "356120847133704193": {
     "uid": 356120847133704193,
     "username": "ybv2x2aikj1wax8bi16asybhwix9kksb",
@@ -10115,15 +10061,6 @@
     "timestamp": "2026-06-18T19:18:28.528571+00:00",
     "source": "TokBot MB"
   },
-  "1515002978275164187": {
-    "uid": 1515002978275164187,
-    "username": "nyxvries105",
-    "ban_type": "Auto",
-    "reason": "Withdrawal scam (OCR)",
-    "manual": false,
-    "timestamp": "2026-06-18T23:39:41.746958+00:00",
-    "source": "TokBot MB"
-  },
   "1460005486182269134": {
     "uid": 1460005486182269134,
     "username": "tntclegitmega_99167",
@@ -10205,15 +10142,6 @@
     "timestamp": "2026-06-21T23:10:35.733843+00:00",
     "source": "TokBot MB"
   },
-  "1169927031430070293": {
-    "uid": 1169927031430070293,
-    "username": "yuna0858_08675",
-    "ban_type": "Auto",
-    "reason": "Withdrawal scam (OCR)",
-    "manual": false,
-    "timestamp": "2026-06-23T00:45:21.224404+00:00",
-    "source": "TokBot MB"
-  },
   "1231597166275985431": {
     "uid": 1231597166275985431,
     "username": "qallimyst",
@@ -10267,15 +10195,6 @@
     "manual": true,
     "timestamp": "2026-06-25T08:37:47.116563+00:00",
     "source": "Scammer List"
-  },
-  "1288970066498420810": {
-    "uid": 1288970066498420810,
-    "username": "joel8uu86_86242",
-    "ban_type": "Auto",
-    "reason": "Withdrawal scam (OCR)",
-    "manual": false,
-    "timestamp": "2026-06-25T16:21:09.214943+00:00",
-    "source": "TokBot MB"
   },
   "1500706955206066197": {
     "uid": 1500706955206066197,
