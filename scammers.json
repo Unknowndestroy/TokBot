@@ -9399,7 +9399,7 @@
     "uid": 1500692745952690357,
     "username": "highharmonygeneration",
     "ban_type": "Pedophile",
-    "reason": "pedophilistic activities",
+    "reason": "\"pedophilistic activities, impersonation, submitting fake evidence\"",
     "manual": true,
     "timestamp": "2026-06-10T11:44:07.037928+00:00",
     "source": "TokBot MB"
@@ -10203,6 +10203,114 @@
     "reason": "Scamming, Ratting/Distributing Rats, Owner of an bot to steal accounts",
     "manual": true,
     "timestamp": "2026-06-21T23:10:35.733843+00:00",
+    "source": "TokBot MB"
+  },
+  "1169927031430070293": {
+    "uid": 1169927031430070293,
+    "username": "yuna0858_08675",
+    "ban_type": "Auto",
+    "reason": "Withdrawal scam (OCR)",
+    "manual": false,
+    "timestamp": "2026-06-23T00:45:21.224404+00:00",
+    "source": "TokBot MB"
+  },
+  "1231597166275985431": {
+    "uid": 1231597166275985431,
+    "username": "qallimyst",
+    "ban_type": "Alt",
+    "reason": "\"alt of 1500692745952690357 | pedophilistic activities, impersonation, submitting fake evidence\"",
+    "manual": true,
+    "timestamp": "2026-06-24T15:02:55.037251+00:00",
+    "source": "TokBot MB"
+  },
+  "1514360112192426039": {
+    "uid": 1514360112192426039,
+    "username": "thebiggestpro",
+    "ban_type": "Impersonator",
+    "reason": "Impersonating 1390638862513999874 (ERN)",
+    "manual": true,
+    "timestamp": "2026-06-25T08:03:44.972383+00:00",
+    "source": "TokBot MB"
+  },
+  "1507479408615620699": {
+    "uid": 1507479408615620699,
+    "username": "successivo",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "Ratting/Phishing",
+    "manual": true,
+    "timestamp": "2026-06-25T08:37:45.965677+00:00",
+    "source": "Scammer List"
+  },
+  "1334018666613833829": {
+    "uid": 1334018666613833829,
+    "username": "cpvpmods",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "Ratting/Phishing",
+    "manual": true,
+    "timestamp": "2026-06-25T08:37:46.358560+00:00",
+    "source": "Scammer List"
+  },
+  "1478323855708913724": {
+    "uid": 1478323855708913724,
+    "username": "thechoosenpengu",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "Ratting/Phishing",
+    "manual": true,
+    "timestamp": "2026-06-25T08:37:46.739730+00:00",
+    "source": "Scammer List"
+  },
+  "1424275722675027968": {
+    "uid": 1424275722675027968,
+    "username": "_shadowrexxx_",
+    "ban_type": "Listed for Multiple Reasons",
+    "reason": "Ratting/Phishing",
+    "manual": true,
+    "timestamp": "2026-06-25T08:37:47.116563+00:00",
+    "source": "Scammer List"
+  },
+  "1511550880716034048": {
+    "uid": 1511550880716034048,
+    "username": "jessicaalvaradog4053",
+    "ban_type": "Auto",
+    "reason": "Withdrawal scam (OCR)",
+    "manual": false,
+    "timestamp": "2026-06-25T15:04:33.562169+00:00",
+    "source": "TokBot MB"
+  },
+  "1107261112493277226": {
+    "uid": 1107261112493277226,
+    "username": "leys6",
+    "ban_type": "Auto",
+    "reason": "Withdrawal scam (OCR)",
+    "manual": false,
+    "timestamp": "2026-06-25T16:18:21.837491+00:00",
+    "source": "TokBot MB"
+  },
+  "1288970066498420810": {
+    "uid": 1288970066498420810,
+    "username": "joel8uu86_86242",
+    "ban_type": "Auto",
+    "reason": "Withdrawal scam (OCR)",
+    "manual": false,
+    "timestamp": "2026-06-25T16:21:09.214943+00:00",
+    "source": "TokBot MB"
+  },
+  "1500706955206066197": {
+    "uid": 1500706955206066197,
+    "username": "bridgewiredetonator",
+    "ban_type": "Alt",
+    "reason": "alt of 1500692745952690357 | pedophilistic activities, impersonation, submitting fake evidence",
+    "manual": true,
+    "timestamp": "2026-06-26T19:50:04.391435+00:00",
+    "source": "TokBot MB"
+  },
+  "1339895612140687362": {
+    "uid": 1339895612140687362,
+    "username": "_hello00_",
+    "ban_type": "Manual",
+    "reason": "for test purposes",
+    "manual": true,
+    "timestamp": "2026-06-26T23:12:08.368928+00:00",
     "source": "TokBot MB"
   }
 }
