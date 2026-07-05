@@ -1,13 +1,4 @@
 {
-  "1490565088896356503": {
-    "uid": 1490565088896356503,
-    "username": "zippei",
-    "ban_type": "Manual",
-    "reason": "impersonating",
-    "manual": true,
-    "timestamp": "2026-04-14T15:58:30.070461",
-    "source": "TokBot MB"
-  },
   "1220901472355483669": {
     "uid": 1220901472355483669,
     "username": "drak085",
@@ -15,7 +6,7 @@
     "reason": "\"Admitting to account stealing via rats - screenshot in support server\"",
     "manual": true,
     "timestamp": "2026-04-14T18:58:38.263980",
-    "source": "TokBot MB"
+    "source": "TokBot MB, Scammer List"
   },
   "1117925196142215258": {
     "uid": 1117925196142215258,
