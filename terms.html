@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Terms of Service – TokBot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        .theme-dark {
+            --bg-primary: rgb(7, 15, 43);
+            --bg-secondary: rgb(27, 26, 85);
+            --bg-card: rgba(7, 15, 43, 0.7);
+            --bg-elevated: rgba(27, 26, 85, 0.5);
+            --text-primary: #f0f4ff;
+            --text-secondary: rgb(146, 144, 195);
+            --border: rgb(83, 92, 145);
+            --accent: rgb(146, 144, 195);
+            --accent-hover: rgb(83, 92, 145);
+        }
+
+        .theme-light {
+            --bg-primary: rgb(249, 248, 246);
+            --bg-secondary: rgb(239, 233, 227);
+            --bg-card: rgba(249, 248, 246, 0.8);
+            --bg-elevated: rgba(239, 233, 227, 0.5);
+            --text-primary: #1a1a2e;
+            --text-secondary: rgb(83, 92, 145);
+            --border: rgb(217, 207, 199);
+            --accent: rgb(146, 144, 195);
+            --accent-hover: rgb(83, 92, 145);
+        }
+
+        .theme-sunset {
+            --bg-primary: rgb(76, 58, 81);
+            --bg-secondary: rgb(119, 67, 96);
+            --bg-card: rgba(76, 58, 81, 0.7);
+            --bg-elevated: rgba(119, 67, 96, 0.5);
+            --text-primary: #fff2e0;
+            --text-secondary: #ffdfb8;
+            --border: rgb(178, 80, 104);
+            --accent: rgb(231, 171, 121);
+            --accent-hover: rgb(209, 144, 95);
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .brand {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .theme-toggle {
+            display: flex;
+            gap: 0.5rem;
+            background: var(--bg-secondary);
+            padding: 0.25rem;
+            border-radius: 40px;
+            border: 1px solid var(--border);
+        }
+
+        .theme-btn {
+            background: transparent;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 32px;
+            font-weight: 500;
+            cursor: pointer;
+            color: var(--text-secondary);
+            transition: 0.1s;
+        }
+
+        .theme-btn.active {
+            background: var(--accent);
+            color: #ffffff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        header.page-header {
+            margin-bottom: 2.5rem;
+        }
+
+        header.page-header h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), #b18aff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 0.6rem;
+        }
+
+        header.page-header p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .notice {
+            background: var(--bg-elevated);
+            border-radius: 16px;
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.4rem;
+            margin-bottom: 2.5rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        section {
+            margin-bottom: 2.2rem;
+        }
+
+        section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
+        }
+
+        section h3 {
+            font-size: 1.1rem;
+            margin: 1rem 0 0.5rem;
+        }
+
+        section p {
+            color: var(--text-secondary);
+            margin-bottom: 0.7rem;
+        }
+
+        section ul {
+            padding-left: 1.4rem;
+            margin: 0.6rem 0 0.8rem;
+        }
+
+        section li {
+            color: var(--text-secondary);
+            margin-bottom: 0.45rem;
+        }
+
+        a.inline-link {
+            color: var(--accent);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 680px) {
+            .container {
+                padding: 1.5rem;
+            }
+            header.page-header h1 {
+                font-size: 1.9rem;
+            }
+            .brand {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body class="theme-dark">
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo-area">
+                <img class="logo" src="https://raw.githubusercontent.com/Unknowndestroy/TokBot/main/logo/_2A1D78FA-FC62-4CB5-B73B-AE9A8A092C18.png" alt="TokBot logo" crossorigin="anonymous">
+                <span class="brand">TokBot</span>
+            </a>
+            <div class="theme-toggle" id="themeToggle">
+                <button class="theme-btn" data-theme="dark">Dark</button>
+                <button class="theme-btn" data-theme="sunset">Sunset</button>
+                <button class="theme-btn" data-theme="light">Light</button>
+            </div>
+        </nav>
+
+        <a href="index.html" class="back-link">Back to TokBot</a>
+
+        <header class="page-header">
+            <h1>Terms of Service</h1>
+            <p>Last updated: July 7, 2026</p>
+        </header>
+
+        <div class="notice">
+            By adding TokBot to your server or interacting with it, you agree to these terms. See our
+            <a class="inline-link" href="privacy.html">Privacy Policy</a> for how we handle data, and our
+            <a class="inline-link" href="transparency.html">Transparency page</a> for a plain-language summary.
+        </div>
+
+        <section>
+            <h2>1. Acceptance of terms</h2>
+            <p>
+                These terms apply to server owners and administrators who add TokBot, to server members in a
+                Discord server where TokBot is active, and to anyone who interacts with TokBot directly, such as
+                through a support ticket or ban appeal. You must comply with
+                <a class="inline-link" href="https://discord.com/terms" target="_blank" rel="noopener noreferrer">Discord's own Terms of Service</a>
+                as well as these terms.
+            </p>
+        </section>
+
+        <section>
+            <h2>2. What TokBot does</h2>
+            <p>
+                TokBot is a Discord bot that provides anti-bot, anti-raid, and anti-nuke protection, including image
+                and link scanning, a cross-server blacklist, join-pattern analysis, and moderation tools. Server
+                owners and administrators choose which features to enable and configure the punishments applied when
+                a violation is detected.
+            </p>
+        </section>
+
+        <section>
+            <h2>3. Server owner responsibilities</h2>
+            <ul>
+                <li>You are responsible for the permissions granted to TokBot and for configuring its features appropriately for your community.</li>
+                <li>You are responsible for how your staff use TokBot's moderation commands, including manual blacklist entries and punishment overrides.</li>
+                <li>You must not use TokBot to harass, target, or falsely blacklist a user without cause.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Automated enforcement</h2>
+            <p>
+                TokBot's detections (including image hashing, link scanning, and behavioral heuristics) are automated
+                and can produce false positives. A ban, kick, or blacklist entry applied by TokBot is not a
+                determination of guilt, and any affected user can submit an appeal through the ticket system.
+            </p>
+        </section>
+
+        <section>
+            <h2>5. Global blacklist</h2>
+            <p>
+                Because TokBot shares detection and ban data across every server where it is active, an action taken
+                in one server (manual or automatic) can result in punishment in other servers running TokBot. By
+                enabling TokBot's global protection features, you accept that your server will enforce blacklist
+                entries created elsewhere.
+            </p>
+        </section>
+
+        <section>
+            <h2>6. Appeals</h2>
+            <p>
+                Users who are banned, kicked, or blacklisted may appeal through TokBot's ticket system, subject to
+                the cooldown period between appeal attempts. Appeal decisions are made at the discretion of TokBot's
+                staff and, where applicable, the relevant server's administrators.
+            </p>
+        </section>
+
+        <section>
+            <h2>7. Availability and changes</h2>
+            <p>
+                TokBot is provided as-is, without guarantee of uninterrupted availability. Features, detection
+                thresholds, and punishment defaults may change over time as protection methods are improved. We may
+                suspend or remove TokBot from a server that abuses its features or violates these terms.
+            </p>
+        </section>
+
+        <section>
+            <h2>8. Limitation of liability</h2>
+            <p>
+                TokBot is provided without warranties of any kind. To the extent permitted by law, we are not liable
+                for damages arising from false positives, missed detections, service interruptions, or actions taken
+                by server staff using TokBot's tools.
+            </p>
+        </section>
+
+        <section>
+            <h2>9. Changes to these terms</h2>
+            <p>
+                We may update these terms as TokBot's features change. Material changes will be reflected on this
+                page with an updated "Last updated" date. Continued use of TokBot after changes are posted means you
+                accept the revised terms.
+            </p>
+        </section>
+
+        <section>
+            <h2>10. Contact</h2>
+            <p>
+                Questions about these terms can be sent through our
+                <a class="inline-link" href="https://dsc.gg/tokbotsupport" target="_blank" rel="noopener noreferrer">support server</a>.
+            </p>
+        </section>
+
+        <footer>
+            TokBot – Discord Scam & Raid Protection System. Not affiliated with Discord Inc.
+        </footer>
+    </div>
+
+    <script>
+        (function() {
+            const themes = ['dark', 'sunset', 'light'];
+            const themeMap = {
+                dark: 'theme-dark',
+                sunset: 'theme-sunset',
+                light: 'theme-light'
+            };
+
+            function setTheme(theme) {
+                if (!themes.includes(theme)) return;
+                document.body.className = themeMap[theme];
+                localStorage.setItem('tokbot_theme', theme);
+                document.querySelectorAll('.theme-btn').forEach(btn => {
+                    if (btn.getAttribute('data-theme') === theme) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
+
+            const savedTheme = localStorage.getItem('tokbot_theme');
+            setTheme(savedTheme && themes.includes(savedTheme) ? savedTheme : 'dark');
+
+            const toggleContainer = document.getElementById('themeToggle');
+            if (toggleContainer) {
+                toggleContainer.addEventListener('click', (e) => {
+                    const btn = e.target.closest('.theme-btn');
+                    if (!btn) return;
+                    const theme = btn.getAttribute('data-theme');
+                    if (theme) setTheme(theme);
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
