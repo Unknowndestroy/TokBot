@@ -340,6 +340,88 @@
             color: var(--accent);
         }
 
+        .invite-modal {
+            display: none;
+            position: fixed;
+            z-index: 1001;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .invite-modal-content {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            max-width: 400px;
+            width: 90%;
+            cursor: default;
+            box-shadow: 0 0 40px rgba(0,0,0,0.5);
+        }
+
+        .invite-modal-content h2 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .invite-modal-content p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .invite-options {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .invite-btn {
+            padding: 0.9rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: 0.15s;
+            text-align: center;
+        }
+
+        .invite-btn-admin {
+            background: var(--accent);
+            color: #ffffff;
+        }
+
+        .invite-btn-admin:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+        }
+
+        .invite-btn-required {
+            background: transparent;
+            border: 1.5px solid var(--border);
+            color: var(--text-primary);
+        }
+
+        .invite-btn-required:hover {
+            border-color: var(--accent);
+            background: rgba(88, 101, 242, 0.05);
+        }
+
+        .invite-btn-label {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
         footer {
             text-align: center;
             padding: 2rem 0 1rem;
@@ -390,9 +472,9 @@
             <p style="font-size:1.5rem; font-weight:600; margin-top:-0.5rem; margin-bottom:0.5rem;">Protect your server from bad people</p>
             <p style="font-size:0.95rem; margin-top:0.6rem; opacity:0.8;">Free to add · Setup takes under 2 minutes</p>
             <div class="btn-group">
-                <a href="https://ptb.discord.com/oauth2/authorize?client_id=1257414917493882890" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <button class="btn btn-primary" id="addBotBtn">
                     Add to your server
-                </a>
+                </button>
                 <a href="https://dsc.gg/tokbotsupport" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
                     Support Server
                 </a>
@@ -462,6 +544,23 @@
         <img class="modal-content" id="modalImg">
     </div>
 
+    <div id="inviteModal" class="invite-modal">
+        <div class="invite-modal-content">
+            <h2>Add TokBot</h2>
+            <p>Choose which permissions level you want to grant:</p>
+            <div class="invite-options">
+                <a id="adminLink" class="invite-btn invite-btn-admin" target="_blank" rel="noopener noreferrer">
+                    Administrator
+                    <span class="invite-btn-label">Recommended (Beta)</span>
+                </a>
+                <a id="requiredLink" class="invite-btn invite-btn-required" target="_blank" rel="noopener noreferrer">
+                    Required Permissions
+                    <span class="invite-btn-label">/invite</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <script>
         (function() {
             const themes = ['dark', 'sunset', 'light'];
@@ -505,6 +604,13 @@
             const modal = document.getElementById('imageModal');
             const modalImg = document.getElementById('modalImg');
             const closeModal = document.querySelector('.close-modal');
+            const inviteModal = document.getElementById('inviteModal');
+            const addBotBtn = document.getElementById('addBotBtn');
+            const adminLink = document.getElementById('adminLink');
+            const requiredLink = document.getElementById('requiredLink');
+
+            const ADMIN_URL = 'https://ptb.discord.com/oauth2/authorize?client_id=1257414917493882890&permissions=8&scope=bot';
+            const REQUIRED_URL = 'https://ptb.discord.com/oauth2/authorize?client_id=1257414917493882890&permissions=8192&permissions=4&permissions=2&permissions=268435456&scope=bot';
 
             function openModal(imgSrc) {
                 modal.style.display = 'flex';
@@ -515,6 +621,21 @@
                 modal.style.display = 'none';
                 modalImg.src = '';
             }
+
+            function openInviteModal() {
+                inviteModal.style.display = 'flex';
+                adminLink.href = ADMIN_URL;
+                requiredLink.href = REQUIRED_URL;
+            }
+
+            function closeInviteModal() {
+                inviteModal.style.display = 'none';
+            }
+
+            addBotBtn.addEventListener('click', openInviteModal);
+            inviteModal.addEventListener('click', (e) => {
+                if (e.target === inviteModal) closeInviteModal();
+            });
 
             const exampleCards = document.querySelectorAll('.example-card');
             exampleCards.forEach(card => {
