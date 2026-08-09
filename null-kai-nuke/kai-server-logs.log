@@ -1,0 +1,3242 @@
+==========================================================================
+Raid and nuke by to Bralik and NullifiedControl against kai's server.
+Automatically extracted from TokBot console logs.
+Support: dsc.gg/tokbotsupport
+==========================================================================
+
+[2026-08-09 05:09:34][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877638415978516,
+  "len": 1218
+}
+  [2026-08-09 05:09:35][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877643055136839,
+  "len": 1218
+}
+  [2026-08-09 05:09:36][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877648146890752,
+  "len": 1218
+}
+  [2026-08-09 05:09:36][DEBUG][ANALYTICS] Analytics event: external_app_interaction
+                                          DATA: {
+  "guild": 1535643985979383900,
+  "triggered_by": 1494344178736566282,
+  "setup_by": null,
+  "integration_type": "unknown",
+  "area": "unknown",
+  "content_preview": "# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd"
+}
+  [2026-08-09 05:09:37][DEBUG][RAID] Disabled Use External Apps in talking due to external app raid
+                                     DATA: {
+  "duration": 30.0,
+  "guild": 1535643985979383900
+}
+  [2026-08-09 05:09:37][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877652613828690,
+  "len": 1218
+}
+  [2026-08-09 05:09:38][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877652613828690,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:38][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877656892153867,
+  "len": 1218
+}
+  [2026-08-09 05:09:39][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877656892153867,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:40][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877662348673024,
+  "len": 1218
+}
+  [2026-08-09 05:09:40][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877662348673024,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:40][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877665628622910,
+  "len": 1218
+}
+  [2026-08-09 05:09:41][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877665628622910,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:41][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877669130993735,
+  "len": 1218
+}
+  [2026-08-09 05:09:41][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877669130993735,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:42][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877672943489114,
+  "len": 1218
+}
+  [2026-08-09 05:09:42][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877672943489114,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:44][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877679088279562,
+  "len": 1218
+}
+  [2026-08-09 05:09:44][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877679088279562,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:45][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877684050272329,
+  "len": 1218
+}
+  [2026-08-09 05:09:45][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877684050272329,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:46][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877688428994620,
+  "len": 1218
+}
+  [2026-08-09 05:09:46][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877688428994620,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:47][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877693004849224,
+  "len": 1218
+}
+  [2026-08-09 05:09:47][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877693004849224,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:48][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877698684063815,
+  "len": 1218
+}
+  [2026-08-09 05:09:48][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877698684063815,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:49][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535877703205388328,
+  "len": 6
+}
+  [2026-08-09 05:09:50][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877703398588546,
+  "len": 1218
+}
+  [2026-08-09 05:09:50][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877703398588546,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:50][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877707294834728,
+  "len": 1218
+}
+  [2026-08-09 05:09:51][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877707294834728,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:52][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877711820755017,
+  "len": 1218
+}
+  [2026-08-09 05:09:52][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877711820755017,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:53][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877718774910986,
+  "len": 1218
+}
+  [2026-08-09 05:09:53][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877718774910986,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:55][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877724110065776,
+  "len": 1218
+}
+  [2026-08-09 05:09:55][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877724110065776,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:56][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877730170708009,
+  "len": 1218
+}
+  [2026-08-09 05:09:56][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877730170708009,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:57][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877734948020327,
+  "len": 1218
+}
+  [2026-08-09 05:09:57][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877734948020327,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:09:58][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877739050180749,
+  "len": 1218
+}
+  [2026-08-09 05:09:58][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877739050180749,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:00][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877746301865984,
+  "len": 1218
+}
+  [2026-08-09 05:10:00][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877746301865984,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:01][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877750949289984,
+  "len": 1218
+}
+  [2026-08-09 05:10:01][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877750949289984,
+  "channel_id": 1535782047619227750
+}
+  [AUTOCONFIG] Guild /psychward (ID: 1535643985979383900): ['Activity analysis: low (0.1 msg/h), 1 online', 'Small server (chill)', 'Auto-configuration applied successfully']
+  [2026-08-09 05:10:02][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877755034665060,
+  "len": 1218
+}
+  [2026-08-09 05:10:02][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877755034665060,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:03][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877758964465765,
+  "len": 1218
+}
+  [2026-08-09 05:10:03][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877758964465765,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:04][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877763032944720,
+  "len": 1218
+}
+  [2026-08-09 05:10:04][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877763032944720,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:06][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877770456866938,
+  "len": 1218
+}
+  [2026-08-09 05:10:06][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877770456866938,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:07][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877775083438080,
+  "len": 1218
+}
+  [2026-08-09 05:10:07][DEBUG][RAID] Re-enabled bot perms in talking after raid
+                                     DATA: {
+  "guild": 1535643985979383900
+}
+  [2026-08-09 05:10:08][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877780032594050,
+  "len": 1218
+}
+  [2026-08-09 05:10:08][DEBUG][MSG] Message from sejehj in /psychward
+                                    DATA: {
+  "id": 1535877781534281751,
+  "len": 4
+}
+  [2026-08-09 05:10:09][DEBUG][MSG] Message from drakomanisback in /psychward
+                                    DATA: {
+  "id": 1535877782075088977,
+  "len": 22
+}
+  [2026-08-09 05:10:09][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877785028005968,
+  "len": 1218
+}
+  [2026-08-09 05:10:10][DEBUG][ANALYTICS] Analytics event: external_app_interaction
+                                          DATA: {
+  "guild": 1535643985979383900,
+  "triggered_by": 1494344178736566282,
+  "setup_by": null,
+  "integration_type": "unknown",
+  "area": "unknown",
+  "content_preview": "# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\r\n# \ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd\ufdfd"
+}
+  [2026-08-09 05:10:10][DEBUG][RAID] Disabled Use External Apps in talking due to external app raid
+                                     DATA: {
+  "duration": 30.0,
+  "guild": 1535643985979383900
+}
+  [2026-08-09 05:10:10][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877788823851069,
+  "len": 1218
+}
+  [2026-08-09 05:10:10][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877788823851069,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:11][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877793265623181,
+  "len": 1218
+}
+  [2026-08-09 05:10:11][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877793265623181,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:12][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877798751633479,
+  "len": 1218
+}
+  [2026-08-09 05:10:12][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877798751633479,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:13][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877802816049228,
+  "len": 1218
+}
+  [2026-08-09 05:10:13][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877802816049228,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:14][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535877807614468106,
+  "len": 22
+}
+  [2026-08-09 05:10:15][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877808889401354,
+  "len": 1218
+}
+  [2026-08-09 05:10:15][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877808889401354,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:16][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877812744101968,
+  "len": 1218
+}
+  [2026-08-09 05:10:16][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877812744101968,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:17][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877817571614820,
+  "len": 1218
+}
+  [2026-08-09 05:10:17][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877817571614820,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:18][DEBUG][MSG] Message from sejehj in /psychward
+                                    DATA: {
+  "id": 1535877823615598703,
+  "len": 4
+}
+  [2026-08-09 05:10:18][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877824227967076,
+  "len": 1218
+}
+  [2026-08-09 05:10:18][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877824227967076,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:20][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877830574088272,
+  "len": 1218
+}
+  [2026-08-09 05:10:20][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877830574088272,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:20][DEBUG][MSG] Message from drakomanisback in /psychward
+                                    DATA: {
+  "id": 1535877833447055441,
+  "len": 22
+}
+  [2026-08-09 05:10:21][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877837620252812,
+  "len": 1218
+}
+  [2026-08-09 05:10:22][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877837620252812,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:22][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877841751904306,
+  "len": 1218
+}
+  [2026-08-09 05:10:23][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877841751904306,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:24][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877846705242143,
+  "len": 1218
+}
+  [2026-08-09 05:10:24][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877846705242143,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:25][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877850488512553,
+  "len": 1218
+}
+  [2026-08-09 05:10:25][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877850488512553,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:26][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877854984933396,
+  "len": 1218
+}
+  [2026-08-09 05:10:26][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877854984933396,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:27][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877858809876503,
+  "len": 1218
+}
+  [2026-08-09 05:10:27][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877858809876503,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:27][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877862962233444,
+  "len": 1218
+}
+  [2026-08-09 05:10:28][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877862962233444,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:28][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877866892427274,
+  "len": 1218
+}
+  [2026-08-09 05:10:29][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877866892427274,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:30][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877871875260491,
+  "len": 1218
+}
+  [2026-08-09 05:10:30][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877871875260491,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:31][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877879718477824,
+  "len": 1218
+}
+  [2026-08-09 05:10:32][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877879718477824,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:32][DEBUG][MSG] Message from reverie.forever in /psychward
+                                    DATA: {
+  "id": 1535877880993808444,
+  "len": 0
+}
+  [2026-08-09 05:10:32][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877883539628152,
+  "len": 1218
+}
+  [2026-08-09 05:10:33][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877883539628152,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:33][DEBUG][MSG] Message from sejehj in /psychward
+                                    DATA: {
+  "id": 1535877886446411877,
+  "len": 22
+}
+  [2026-08-09 05:10:34][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877887616360548,
+  "len": 1218
+}
+  [2026-08-09 05:10:34][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877887616360548,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:34][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877891563192341,
+  "len": 1218
+}
+  [2026-08-09 05:10:34][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877891563192341,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:35][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877895795507260,
+  "len": 1218
+}
+  [2026-08-09 05:10:35][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877895795507260,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:36][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877900291805245,
+  "len": 1218
+}
+  [2026-08-09 05:10:36][DEBUG][PURGE] Queued message for deletion during active purge
+                                      DATA: {
+  "msg_id": 1535877900291805245,
+  "channel_id": 1535782047619227750
+}
+  [2026-08-09 05:10:38][DEBUG][MSG] Message from drakomanisback in /psychward
+                                    DATA: {
+  "id": 1535877908206190663,
+  "len": 45
+}
+  [2026-08-09 05:10:45][DEBUG][MSG] Message from Jalapeno ©#5385 in /psychward
+                                    DATA: {
+  "id": 1535877935679016960,
+  "len": 0
+}
+  [2026-08-09 05:10:45][DEBUG][RAID] Re-enabled bot perms in talking after raid
+                                     DATA: {
+  "guild": 1535643985979383900
+}
+  [2026-08-09 05:10:49][DEBUG][MSG] Message from drakomanisback in /psychward
+                                    DATA: {
+  "id": 1535877954301730836,
+  "len": 1
+}
+  [2026-08-09 05:10:54][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535877974648291389,
+  "len": 22
+}
+  [2026-08-09 05:10:55][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535877979190861894,
+  "len": 5
+}
+  [2026-08-09 05:10:56][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535877982156103691,
+  "len": 1
+}
+  [2026-08-09 05:11:14][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535878059373109328,
+  "len": 42
+}
+  [2026-08-09 05:11:17][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535878072463663104,
+  "len": 30
+}
+  [2026-08-09 05:11:41][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535878170916687922,
+  "len": 40
+}
+  [2026-08-09 05:12:06][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878275480551465,
+  "len": 0
+}
+  [2026-08-09 05:12:15][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535878314965729312,
+  "len": 5
+}
+  [2026-08-09 05:12:15][DEBUG][NUKE_CMD] Nuke command detected: !nuke
+                                         DATA: {
+  "uid": 1212893560496586812,
+  "bot": false,
+  "guild": 1535643985979383900
+}
+[2026-08-09 05:12:19]  [ERROR	] Missing Permissions: Failed to ban 1212893560496586812, 1529941015174320228
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [LOG_PROTECTION_EVENT] No log webhook for guild 1535643985979383900, cannot deliver: Nuke Command Detected & Actioned
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330509959248,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330530664468,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330505498674,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330526736435,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330862145596,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330845372416,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330887442523,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330849566750,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330627395586,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330669207573,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330824392724,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330736312352,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330484654092,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330895704064,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330853621881,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330501308438,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330954547310,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330950094868,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330904092732,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331000422491,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330946158702,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330895695914,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331067535370,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330874601492,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330924925000,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330933317752,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330845499444,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330677731439,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330837114911,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330971324566,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330916536371,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331155619851,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330736447621,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330958610442,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330895573103,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331160072322,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331348549683,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330962813010,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330933317754,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331034112092,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331726168105,
+  "len": 0
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878330987847690,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331122057226,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331097026661,
+  "len": 107
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331004878879,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331151552545,
+  "len": 168
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331373846619,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878332283887678,
+  "len": 0
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331847811195,
+  "len": 0
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878331164270593,
+  "len": 36
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878332242075680,
+  "len": 0
+}
+  [2026-08-09 05:12:19][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878332695183391,
+  "len": 0
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 400 Bad Request (error code: 40003): You are opening direct messages too fast.
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878333294968934,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878333147914311,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878333735112705,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878333651361824,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334112866370,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334569914388,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334565584906,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334205141014,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334574235769,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334603333693,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334607654952,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334595211274,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334217588767,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334230171711,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334628634704,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334636884058,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334615920690,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334280376361,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334422982680,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334670577734,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334595211265,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334582493305,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334704132157,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334301474889,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334666379404,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334704263289,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334615916637,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334934810704,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334511321129,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878335005990922,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334821699725,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878335110979594,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878334913978393,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878335282810941,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878335333400606,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878335543119892,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878335387795476,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878335538667602,
+  "len": 0
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878335916146741,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336222466119,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336285511801,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336415277107,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336537165914,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336532709406,
+  "len": 168
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336532713513,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336490766558,
+  "len": 0
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336570466345,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336600084671,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336352489566,
+  "len": 36
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336666927144,
+  "len": 107
+}
+  [2026-08-09 05:12:20][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336729841696,
+  "len": 107
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337082302565,
+  "len": 107
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337107460096,
+  "len": 36
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337145081938,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878336847548499,
+  "len": 36
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337166184500,
+  "len": 168
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337342214294,
+  "len": 107
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337308786690,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337409327105,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337497661441,
+  "len": 168
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337585487913,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337753391215,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878338063761409,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878338072281090,
+  "len": 0
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878337866633310,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878338193661953,
+  "len": 168
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878338432995349,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878338600636558,
+  "len": 36
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878338776932485,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878338974056511,
+  "len": 0
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878339418529842,
+  "len": 168
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878339502276718,
+  "len": 36
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878339515129890,
+  "len": 107
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878339867181118,
+  "len": 168
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878340156850246,
+  "len": 36
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878340144144477,
+  "len": 0
+}
+  [2026-08-09 05:12:21][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878340567765063,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341519867974,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341146714134,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341549359145,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341553291284,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341561946142,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341150769185,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341566009344,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341586845809,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341570203769,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341616209940,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341616341052,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341607948379,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341616341062,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341557751889,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341666803722,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341675057192,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341670867075,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341557755926,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341683576893,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341746237504,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341448704033,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341528133714,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341452894299,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341767204945,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341557624965,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341423267913,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341708611584,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341914263603,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341918461953,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341889105930,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878342182436947,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878341926584437,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878342459396096,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878342417580144,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878342622842923,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878342731898898,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878342883020853,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343214235690,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343327752272,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343394857043,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343399055533,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343466164355,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343155515394,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343239401594,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343537336351,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343457767515,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343587795025,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343759503470,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343310975020,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343675748404,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343726075997,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878344019673129,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878343738531844,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878344397164655,
+  "len": 107
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878344606752839,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878344845951007,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878344414076983,
+  "len": 168
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878344808333333,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878345039020033,
+  "len": 0
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878345139421264,
+  "len": 36
+}
+  [2026-08-09 05:12:22][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878345227767959,
+  "len": 0
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878345382961173,
+  "len": 107
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878346553163877,
+  "len": 168
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347404345414,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347408810086,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347412742194,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347417063454,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347416936538,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347412734043,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347425316956,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347433705552,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347446288414,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347429519450,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347450621983,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347433709648,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347433844867,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347467399188,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347442098176,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347106680886,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347505147944,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347450613760,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347530182766,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347543027774,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347530309743,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347492434020,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347526111254,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347547090994,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347408543815,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347723247728,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347299618838,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347773714465,
+  "len": 36
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347576578080,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348113449091,
+  "len": 0
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347966390304,
+  "len": 0
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878347874373757,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348230754364,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348197331054,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348369035334,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348591337553,
+  "len": 0
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348662636665,
+  "len": 0
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348612436008,
+  "len": 107
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348843126895,
+  "len": 0
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348872355860,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348910104596,
+  "len": 107
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348851384331,
+  "len": 0
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878348956377159,
+  "len": 0
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878349392711730,
+  "len": 168
+}
+  [2026-08-09 05:12:23][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878349358899291,
+  "len": 36
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878349673467935,
+  "len": 107
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878349757358121,
+  "len": 168
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878349791035423,
+  "len": 168
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878349564542986,
+  "len": 36
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878349891833907,
+  "len": 36
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878350055145583,
+  "len": 107
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878350285836350,
+  "len": 0
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878350365532202,
+  "len": 36
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878350676172842,
+  "len": 107
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878350952996909,
+  "len": 0
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878351313436752,
+  "len": 107
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878351258914859,
+  "len": 0
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878352424935486,
+  "len": 36
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878352613933167,
+  "len": 107
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878352714469376,
+  "len": 36
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878352454422539,
+  "len": 168
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353440215131,
+  "len": 168
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353465249902,
+  "len": 107
+}
+  [2026-08-09 05:12:24][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353712713789,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353951662100,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353582821447,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353955979304,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353947598948,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353981284442,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353989533758,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353955852288,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353914040341,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353976950785,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353838411897,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353989533706,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354023223297,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354044063805,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354043928576,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354065162260,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878353800658957,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354010505288,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354094391346,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354132275250,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354048122914,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354161635328,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354232676442,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354170023976,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354350120970,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354501115944,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354484338689,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354543185990,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878354950168637,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355017269354,
+  "len": 0
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355168141364,
+  "len": 0
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355499483138,
+  "len": 0
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355889422407,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355902275604,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355897942119,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355516260363,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355952607302,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356220907571,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356065722429,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878355918921811,
+  "len": 0
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356304924722,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356330086501,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356493668442,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356178964582,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356535607446,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356095074315,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356543741952,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356778750022,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878357240258610,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878356963434496,
+  "len": 168
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878357361762344,
+  "len": 107
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878357286264913,
+  "len": 0
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878357324140654,
+  "len": 36
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878357512622122,
+  "len": 0
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878357324140645,
+  "len": 0
+}
+  [2026-08-09 05:12:25][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878357495840930,
+  "len": 0
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878358066397225,
+  "len": 0
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878358712193134,
+  "len": 36
+}
+  [LOG_PROTECTION_EVENT] Fallback DM failed for guild 1535643985979383900: 403 Forbidden (error code: 50278): Cannot send messages to this user due to having no mutual guilds
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878359672823879,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360012427356,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360029335552,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360025272340,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360033394758,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360041922600,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360054370365,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360046239815,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878359832068147,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360083734528,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360063021117,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360071413790,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878359903633410,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360104837130,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360088182834,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360109023242,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360180457482,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360066949120,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360050176093,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360180457472,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360138518610,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360121610321,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360125939823,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360196980816,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360155160619,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360478257252,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360398561300,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360507621396,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360180199507,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360259891203,
+  "len": 0
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360721391667,
+  "len": 0
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360712880148,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360478257263,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878360897552415,
+  "len": 0
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878361132441681,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878361493016657,
+  "len": 0
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878361518186529,
+  "len": 0
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878361916899359,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878361979691048,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878361987944458,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362030018611,
+  "len": 36
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362084679830,
+  "len": 168
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362080219207,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362046799883,
+  "len": 0
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878361870630965,
+  "len": 107
+}
+  [2026-08-09 05:12:26][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878361631428630,
+  "len": 36
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362235539497,
+  "len": 0
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362575405086,
+  "len": 36
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362592059392,
+  "len": 168
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362726268998,
+  "len": 107
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362822615061,
+  "len": 107
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878362969415770,
+  "len": 36
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878363015815179,
+  "len": 0
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878363150024765,
+  "len": 0
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878363128795234,
+  "len": 168
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878363141513227,
+  "len": 0
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878363644956683,
+  "len": 0
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878363967922237,
+  "len": 168
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878363900678165,
+  "len": 36
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878364470972498,
+  "len": 168
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878365280600114,
+  "len": 107
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878365876195369,
+  "len": 168
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878365800701952,
+  "len": 36
+}
+  [2026-08-09 05:12:27][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366408871997,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366127988777,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366425522238,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366450946068,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366438101042,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366438101122,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366455136306,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366455144498,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366471921735,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366459330580,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366501011570,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366505336882,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366387773472,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366434168903,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366484234310,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366484369438,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366446620692,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366488694794,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366589362196,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366408871988,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366559998002,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366182244435,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366723448842,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366706667660,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366731698256,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367054794762,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367033823292,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367168040971,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878366551482448,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367285354556,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367469895681,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367809773600,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367818293299,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367906365482,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367985934407,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878367440539750,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878368296181861,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878368392642609,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878368443113562,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878368434593863,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878368552288387,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878368988373142,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878368854155356,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878369017729084,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878369164529766,
+  "len": 0
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878369097289798,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878370166833185,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878370133413899,
+  "len": 36
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878370405912597,
+  "len": 107
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878369885945867,
+  "len": 168
+}
+  [2026-08-09 05:12:28][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878370431082537,
+  "len": 168
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878369822904360,
+  "len": 168
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878371181858890,
+  "len": 36
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878371186053134,
+  "len": 107
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878371408613478,
+  "len": 168
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372565979209,
+  "len": 107
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372817764442,
+  "len": 107
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372872421446,
+  "len": 168
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372880551946,
+  "len": 107
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372578828360,
+  "len": 36
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372910039092,
+  "len": 168
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372549201963,
+  "len": 168
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372922761318,
+  "len": 36
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878372947660870,
+  "len": 107
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878374025855008,
+  "len": 0
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878374155747439,
+  "len": 107
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878373933449347,
+  "len": 36
+}
+  [2026-08-09 05:12:29][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878374197694537,
+  "len": 0
+}
+  [2026-08-09 05:12:30][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878374881370112,
+  "len": 168
+}
+  [2026-08-09 05:12:30][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878375661502555,
+  "len": 168
+}
+  [2026-08-09 05:12:30][DEBUG][MSG] Message from Korika#6170 in /psychward
+                                    DATA: {
+  "id": 1535878376613609472,
+  "len": 36
+}
+  [2026-08-09 05:12:59][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535878497275482153,
+  "len": 9
+}
+  [2026-08-09 05:13:35][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535878650606649405,
+  "len": 33
+}
+  [2026-08-09 05:13:55][DEBUG][HEURISTIC] Heuristic score (no media): 0.40
+                                          DATA: {
+  "reasons": [
+    "new account (5d)"
+  ]
+}
+  [HEUR] score=0.40 (no media)
+  [2026-08-09 05:14:03][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535878767249985618,
+  "len": 3
+}
+  [2026-08-09 05:14:16][DEBUG][MSG] Message from reaper_ghoulgdn_75981 in Luffy Giveaways - Blox fruits -  Free fruits
+                                    DATA: {
+  "id": 1535878822086316043,
+  "len": 20
+}
+  [2026-08-09 05:14:43][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535878934955163718,
+  "len": 4
+}
+  [2026-08-09 05:14:44][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535878938125934703,
+  "len": 3
+}
+  [2026-08-09 05:14:46][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535878945734656050,
+  "len": 11
+}
+  [2026-08-09 05:15:50][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879214329368666,
+  "len": 3
+}
+  [2026-08-09 05:15:54][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879233786609707,
+  "len": 10
+}
+  [2026-08-09 05:15:59][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879251746750534,
+  "len": 28
+}
+  [2026-08-09 05:16:00][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879259145379881,
+  "len": 5
+}
+  [2026-08-09 05:16:02][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879265214529566,
+  "len": 11
+}
+  [2026-08-09 05:16:09][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879296391061544,
+  "len": 6
+}
+  [2026-08-09 05:16:10][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879300128186440,
+  "len": 4
+}
+  [2026-08-09 05:16:23][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879353316155462,
+  "len": 15
+}
+  [2026-08-09 05:16:26][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879368499269714,
+  "len": 7
+}
+  [2026-08-09 05:16:33][DEBUG][MSG] Message from Name Change Logs#0000 in TokBot - Official Server
+                                    DATA: {
+  "id": 1535879396307632170,
+  "len": 0
+}
+  [2026-08-09 05:16:40][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879423801163866,
+  "len": 32
+}
+  [2026-08-09 05:16:47][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879456772595712,
+  "len": 4
+}
+  [2026-08-09 05:16:48][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879460773957632,
+  "len": 2
+}
+  [2026-08-09 05:16:51][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879470840422461,
+  "len": 0
+}
+  [2026-08-09 05:16:51][DEBUG][HEURISTIC] Heuristic score: 0.00
+                                          DATA: {
+  "reasons": []
+}
+  [HEUR] score=0.00
+  [SKIP] attachments, medias scanned, no match found
+  [2026-08-09 05:16:53][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879482072891482,
+  "len": 22
+}
+  [2026-08-09 05:16:56][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879492483162122,
+  "len": 6
+}
+  [2026-08-09 05:17:01][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879511256862802,
+  "len": 23
+}
+  [2026-08-09 05:17:07][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535879537605480458,
+  "len": 2
+}
+  [2026-08-09 05:17:11][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535879554231697450,
+  "len": 15
+}
+  [2026-08-09 05:17:14][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535879569096179773,
+  "len": 5
+}
+  [2026-08-09 05:17:16][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879575828168735,
+  "len": 7
+}
+  [2026-08-09 05:17:21][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879599106293790,
+  "len": 5
+}
+  [2026-08-09 05:17:27][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535879622682615858,
+  "len": 32
+}
+  [2026-08-09 05:17:34][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879649886863411,
+  "len": 4
+}
+  [2026-08-09 05:17:38][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879667012345966,
+  "len": 14
+}
+  [2026-08-09 05:17:40][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879678131437711,
+  "len": 21
+}
+  [2026-08-09 05:17:41][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879679616221285,
+  "len": 2
+}
+  [2026-08-09 05:17:42][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879683139313675,
+  "len": 3
+}
+  [2026-08-09 05:17:47][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535879706086477894,
+  "len": 22
+}
+  [2026-08-09 05:18:16][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535879827884740718,
+  "len": 23
+}
+  [2026-08-09 05:18:43][DEBUG][MSG] Message from Reverter#5858 in /psychward
+                                    DATA: {
+  "id": 1535879928682385449,
+  "len": 0
+}
+  [2026-08-09 05:19:01][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535880016204922951,
+  "len": 4
+}
+  [2026-08-09 05:19:13][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535880067434160188,
+  "len": 7
+}
+  [2026-08-09 05:19:20][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535880097591074858,
+  "len": 13
+}
+  [2026-08-09 05:19:22][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535880103744245851,
+  "len": 0
+}
+  [2026-08-09 05:19:22][DEBUG][HEURISTIC] Heuristic score: 0.00
+                                          DATA: {
+  "reasons": []
+}
+  [HEUR] score=0.00
+  [SKIP] attachments, medias scanned, no match found
+  [2026-08-09 05:19:23][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535880107896606731,
+  "len": 18
+}
+  [2026-08-09 05:19:28][DEBUG][HEURISTIC] Heuristic score (no media): 0.40
+                                          DATA: {
+  "reasons": [
+    "new account (0d)"
+  ]
+}
+  [HEUR] score=0.40 (no media)
+  [2026-08-09 05:19:39][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535880174967591003,
+  "len": 21
+}
+  [2026-08-09 05:19:46][DEBUG][MSG] Message from oxolia in /psychward
+                                    DATA: {
+  "id": 1535880206038863882,
+  "len": 4
+}
+  [2026-08-09 05:19:48][DEBUG][MSG] Message from kewlllkid in /psychward
+                                    DATA: {
+  "id": 1535880214893297725,
+  "len": 5
+}
+  [HONEYPOT] softban failed for kewlllkid: 403 Forbidden (error code: 50013): Missing Permissions
+  [2026-08-09 05:19:50][DEBUG][MSG] Message from TokBot#6492 in /psychward
+                                    DATA: {
+  "id": 1535880221461581855,
+  "len": 0
+}
+  [2026-08-09 05:20:08][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535880298556825620,
+  "len": 34
+}
+  [2026-08-09 05:20:11][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535880308476481617,
+  "len": 18
+}
+  [2026-08-09 05:20:11][DEBUG][MSG] Message from bra1ik_ in /psychward
+                                    DATA: {
+  "id": 1535880312192630914,
+  "len": 5
+}
+  [2026-08-09 05:20:20][DEBUG][MSG] Message from dexexl_dei in /psychward
+                                    DATA: {
+  "id": 1535880349513687060,
+  "len": 13
+}
