@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="TokBot Transparency Portal – Learn how TokBot protects Discord servers, what data we collect, and our commitment to safety.">
+    <meta property="og:title" content="TokBot Transparency Portal">
+    <meta property="og:description" content="Learn how TokBot protects Discord servers and our data practices.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Unknowndestroy/TokBot/main/logo/_2A1D78FA-FC62-4CB5-B73B-AE9A8A092C18.png">
+    <meta property="og:url" content="https://Unknowndestroy.github.io/TokBot/transparencyportal.html">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://Unknowndestroy.github.io/TokBot/transparencyportal.html">
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Unknowndestroy/TokBot/main/logo/_2A1D78FA-FC62-4CB5-B73B-AE9A8A092C18.png">
+    <title>TokBot Transparency Portal</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    :root {
+        --font-mono: 'SF Mono', 'Fira Code', monospace;
+    }
+
+    .theme-dark {
+        --bg-primary: rgb(7, 15, 43);
+        --bg-secondary: rgb(27, 26, 85);
+        --bg-card: rgba(7, 15, 43, 0.7);
+        --bg-elevated: rgba(27, 26, 85, 0.5);
+        --text-primary: #f0f4ff;
+        --text-secondary: rgb(146, 144, 195);
+        --border: rgb(83, 92, 145);
+        --accent: rgb(146, 144, 195);
+        --accent-hover: rgb(83, 92, 145);
+        --danger: #ff8a8a;
+        --success: #b5f5b5;
+        --dropdown-bg: rgba(27, 26, 85, 0.96);
+        --dropdown-hover: rgba(83, 92, 145, 0.35);
+    }
+
+    .theme-sunset {
+        --bg-primary: rgb(76, 58, 81);
+        --bg-secondary: rgb(119, 67, 96);
+        --bg-card: rgba(76, 58, 81, 0.7);
+        --bg-elevated: rgba(119, 67, 96, 0.5);
+        --text-primary: #fff2e0;
+        --text-secondary: #ffdfb8;
+        --border: rgb(178, 80, 104);
+        --accent: rgb(231, 171, 121);
+        --accent-hover: rgb(209, 144, 95);
+        --danger: #ff8a8a;
+        --success: #b5f5b5;
+        --dropdown-bg: rgba(119, 67, 96, 0.97);
+        --dropdown-hover: rgba(231, 171, 121, 0.18);
+    }
+
+    .theme-light {
+        --bg-primary: rgb(249, 248, 246);
+        --bg-secondary: rgb(239, 233, 227);
+        --bg-card: rgba(249, 248, 246, 0.85);
+        --bg-elevated: rgba(239, 233, 227, 0.65);
+        --text-primary: #1a1a2e;
+        --text-secondary: rgb(83, 92, 145);
+        --border: rgb(217, 207, 199);
+        --accent: rgb(146, 144, 195);
+        --accent-hover: rgb(83, 92, 145);
+        --danger: #e05a5a;
+        --success: #3ba55d;
+        --dropdown-bg: rgba(249, 248, 246, 0.97);
+        --dropdown-hover: rgba(146, 144, 195, 0.15);
+    }
+
+    body {
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        min-height: 100vh;
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
+    }
+
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .logo-area {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .logo {
+        width: 48px;
+        height: 48px;
+        object-fit: contain;
+    }
+
+    .brand {
+        font-size: 1.8rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+    }
+
+    .theme-toggle {
+        display: flex;
+        gap: 0.25rem;
+        background: var(--bg-secondary);
+        padding: 0.25rem;
+        border-radius: 40px;
+        border: 1px solid var(--border);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .theme-btn {
+        appearance: none;
+        border: none;
+        background: transparent;
+        color: var(--text-secondary);
+        padding: 0.55rem 0.9rem;
+        border-radius: 30px;
+        font-family: inherit;
+        font-size: 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .theme-btn:hover {
+        color: var(--text-primary);
+        background: var(--dropdown-hover);
+    }
+
+    .theme-btn.active {
+        background: var(--accent);
+        color: #ffffff;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        padding: 0.5rem 0;
+    }
+
+    .back-link:hover {
+        color: var(--accent-hover);
+    }
+
+    .false-accusations-note {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+    }
+
+    .false-accusations-note svg {
+        flex-shrink: 0;
+        stroke: var(--danger);
+    }
+
+    .false-accusations-note a {
+        color: var(--danger);
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .false-accusations-note a:hover {
+        color: var(--accent-hover);
+    }
+
+    .header {
+        margin-bottom: 3rem;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+        color: var(--text-secondary);
+    }
+
+    .section {
+        margin-bottom: 3rem;
+        padding: 2rem;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+    }
+
+    .section h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: var(--accent);
+    }
+
+    .section h3 {
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+    }
+
+    .section p {
+        margin-bottom: 1rem;
+        line-height: 1.7;
+        color: var(--text-secondary);
+    }
+
+    .section ul {
+        margin: 1rem 0;
+        margin-left: 1.5rem;
+    }
+
+    .section li {
+        margin-bottom: 0.75rem;
+        line-height: 1.7;
+        color: var(--text-secondary);
+    }
+
+    .feature-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .feature-item {
+        padding: 1.5rem;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+    }
+
+    .feature-item h4 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: var(--accent);
+    }
+
+    .feature-item p {
+        font-size: 0.95rem;
+        margin: 0;
+    }
+
+    .permissions-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .permission-card {
+        padding: 1.5rem;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+    }
+
+    .permission-card h4 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        color: var(--success);
+        font-weight: 600;
+    }
+
+    .permission-card p {
+        font-size: 0.95rem;
+        margin: 0;
+    }
+
+    .faq-item {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .faq-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .faq-item h4 {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .faq-item h4:hover {
+        color: var(--accent);
+    }
+
+    .faq-answer {
+        display: none;
+        margin-top: 0.75rem;
+        color: var(--text-secondary);
+    }
+
+    .faq-answer.open {
+        display: block;
+    }
+
+    .faq-toggle {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease;
+    }
+
+    .faq-toggle.open {
+        transform: rotate(180deg);
+    }
+
+    .expandable-section-header {
+        font-weight: 600;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 1.3rem;
+        color: var(--accent);
+        padding: 1rem;
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        user-select: none;
+    }
+
+    .expandable-section-header:hover {
+        background: var(--dropdown-hover);
+        border-color: var(--accent);
+    }
+
+    .expandable-section-toggle {
+        font-size: 1.2rem;
+        transition: transform 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+    }
+
+    .expandable-section-toggle.open {
+        transform: rotate(180deg);
+    }
+
+    .expandable-section-content {
+        display: none;
+        margin-top: 1rem;
+    }
+
+    .expandable-section-content.open {
+        display: block;
+    }
+
+    .contact-section {
+        background: var(--bg-card);
+        border: 2px solid var(--accent);
+        padding: 2rem;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .contact-section h3 {
+        margin-top: 0;
+        font-size: 1.4rem;
+    }
+
+    .contact-section p {
+        font-size: 1rem;
+    }
+
+    .contact-section a {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.75rem 1.5rem;
+        background: var(--accent);
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+        transition: background-color 0.2s ease;
+    }
+
+    .contact-section a:hover {
+        background: var(--accent-hover);
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border);
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+    }
+
+    footer a {
+        color: var(--text-secondary);
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: var(--accent);
+    }
+
+    @media (max-width: 768px) {
+        .header h1 {
+            font-size: 2rem;
+        }
+
+        .section {
+            padding: 1.5rem;
+        }
+
+        nav {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    </style>
+</head>
+<body class="theme-dark">
+    <div class="container">
+        <nav>
+            <div class="logo-area">
+                <img class="logo" src="https://raw.githubusercontent.com/Unknowndestroy/TokBot/main/logo/_2A1D78FA-FC62-4CB5-B73B-AE9A8A092C18.png" alt="TokBot logo" crossorigin="anonymous">
+                <span class="brand">TokBot</span>
+            </div>
+            <div class="theme-toggle" id="themeToggle">
+                <button class="theme-btn" data-theme="dark">Dark</button>
+                <button class="theme-btn" data-theme="sunset">Sunset</button>
+                <button class="theme-btn" data-theme="light">Light</button>
+            </div>
+        </nav>
+
+        <a href="index_5_.html" class="back-link">← Back to TokBot</a>
+
+        <p class="false-accusations-note">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            To view false accusations about the bot's owner or the bot, please<a href="https://unknowndestroy.github.io/TokBot/falseaccusations.html" target="_blank" rel="noopener noreferrer">click here.</a>
+        </p>
+
+        <div class="header">
+            <h1>Transparency Portal</h1>
+            <p>Learn how TokBot works, what we collect, and how we protect your server.</p>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                How TokBot Works
+            </div>
+            <div class="expandable-section-content">
+<p>TokBot is a Discord anti-bot and security system designed to protect servers from scammers, fake bots, and raiders.</p>
+            
+            <h3>Core Features</h3>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h4>Image Detection</h4>
+                    <p>Perceptual hashing and OCR instantly block scam images, QR codes, and withdrawal text.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Global Ban System</h4>
+                    <p>Cross-server blacklist. Detected scammers are banned from all protected communities.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Raid Defense</h4>
+                    <p>Automatic lockdown, join pattern analysis, copycat bot detection, and spam filtering.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Real-time Monitoring</h4>
+                    <p>Continuous analysis of messages and user behavior for threats.</p>
+                </div>
+            </div>
+        
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                Permissions & Why We Need Them
+            </div>
+            <div class="expandable-section-content">
+<p>TokBot requests minimal permissions necessary for effective protection. Here's what we use:</p>
+            
+            <div class="permissions-grid">
+                <div class="permission-card">
+                    <h4>Read Messages</h4>
+                    <p>Required to scan messages for scam content, malicious links, and threats. We analyze message content in real-time.</p>
+                </div>
+                <div class="permission-card">
+                    <h4>Send Messages</h4>
+                    <p>Used to warn users, alert moderators of threats, and send important security notifications.</p>
+                </div>
+                <div class="permission-card">
+                    <h4>Manage Messages</h4>
+                    <p>Allows us to delete harmful messages and block scam content before it spreads.</p>
+                </div>
+                <div class="permission-card">
+                    <h4>Manage Roles</h4>
+                    <p>Used to apply temporary mute roles or security restrictions on detected threats.</p>
+                </div>
+                <div class="permission-card">
+                    <h4>Ban Members</h4>
+                    <p>Enables removal of confirmed scammers and malicious actors from your server.</p>
+                </div>
+                <div class="permission-card">
+                    <h4>View Server Members</h4>
+                    <p>Required to check user history and identify suspicious join patterns during raids.</p>
+                </div>
+            </div>
+        
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                Data Collection & Privacy
+            </div>
+            <div class="expandable-section-content">
+<h3>Exact Data Structures</h3>
+            <p>Below is exactly what TokBot stores for each detection type:</p>
+
+            <h4>Banned User Entry (scammers.json)</h4>
+            <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+{
+  "USER_ID": {
+    "uid": 123456789,
+    "username": "detected_username",
+    "ban_type": "Image Detection",
+    "reason": "Phishing scam image",
+    "manual": false,
+    "timestamp": "2024-01-15T10:30:00Z"
+  }
+}</pre>
+            <p><strong>What's stored:</strong> Only the 6 fields above. Nothing else. No IP, no email, no DMs, no message history.</p>
+
+            <h4>Scam Image Hash Entry</h4>
+            <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">ID: 1  Hash: a1b2c3d4e5f6g7h8i9j0</pre>
+            <p><strong>What's stored:</strong> Only the perceptual hash. Not the image, not the URL it came from, not who uploaded it. Just the 20-character hash.</p>
+
+            <h4>Malicious Link Entry</h4>
+            <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">ID: 1  Link: sus-crypto-withdraw.com</pre>
+            <p><strong>What's stored:</strong> Only the domain/URL. Not access logs, not click counts, not user referrers.</p>
+
+            <h3>Real-Time Message Processing (Not Stored)</h3>
+            <p>When you send a message:</p>
+            <ol style="margin: 1rem 0 1rem 1.5rem;">
+                <li>Message enters bot's memory</li>
+                <li>Checked against hash/link/keyword databases (in RAM)</li>
+                <li>If threat detected → user is banned, message is deleted</li>
+                <li>If safe → message is immediately discarded from bot memory</li>
+                <li><strong>Result:</strong> Message never written to disk</li>
+            </ol>
+            <p style="color: var(--success); font-weight: 600;">Zero permanent message logging. This is guaranteed by code design.</p>
+
+            <h3>What Data We Collect</h3>
+            <ul>
+                <li><strong>Image hashes:</strong> 20-char perceptual hash only (not the actual image)</li>
+                <li><strong>Banned user entries:</strong> 6 fields: uid, username, ban_type, reason, manual flag, timestamp</li>
+                <li><strong>Malicious links:</strong> Domain/URL string only</li>
+                <li><strong>Scam keywords:</strong> Text patterns for OCR detection</li>
+                <li><strong>Message content:</strong> Analyzed in RAM, discarded after check (not persisted)</li>
+				<li><strong>TokBot command history</strong> Commands you run with TokBot is stored.
+            </ul>
+
+            <h3>What We Don't Collect</h3>
+            <ul>
+                <li>Full message text (ever persisted to disk)</li>
+                <li>User DMs or private channel content</li>
+                <li>IP addresses or connection data</li>
+                <li>Email or any contact information</li>
+                <li>Full images (only cryptographic hashes)</li>
+                <li>Server configs or channel settings</li>
+                <li>Bot command history (except TokBot)</li>
+            </ul>
+
+            <h3>Data Retention Policy</h3>
+            <ul>
+                <li><strong>Scam image hashes:</strong> Indefinite (needed for ongoing protection)</li>
+                <li><strong>Banned user database:</strong> Indefinite (global blacklist)</li>
+                <li><strong>Malicious links:</strong> Indefinite (prevents re-use of known scam domains)</li>
+                <li><strong>Real-time message analysis:</strong> 0 seconds (deleted from memory immediately after scan)</li>
+            </ul>
+            <p><strong>Important:</strong> The only way data persists is if you're banned. You can request removal by appealing in our support server.</p>
+
+            <h3>Data Security</h3>
+            <p>All data is encrypted in transit. We use industry-standard practices to protect information from unauthorized access. We do not sell or share user data with third parties.</p>
+        
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                Frequently Asked Questions
+            </div>
+            <div class="expandable-section-content">
+<div class="faq-item">
+                <h4 onclick="toggleFAQ(event)">
+                    <span class="faq-toggle">▼</span>
+                    Why does TokBot need administrator permissions in beta?
+                </h4>
+                <div class="faq-answer">
+                    <p>The beta admin mode allows TokBot to implement advanced raid defense features, such as automatic lockdown during attacks. The minimal permissions version is still available and recommended for most servers.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(event)">
+                    <span class="faq-toggle">▼</span>
+                    Is my server's data shared with other servers?
+                </h4>
+                <div class="faq-answer">
+                    <p>Only scam detection data (image hashes and identified scammer IDs) is shared across the global protection network. Your server settings, custom rules, and private messages remain server-specific.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(event)">
+                    <span class="faq-toggle">▼</span>
+                    Can I appeal a global ban?
+                </h4>
+                <div class="faq-answer">
+                    <p>Yes. If you believe you've been incorrectly flagged, join our support server and open a ticket with evidence. We review appeals on a case-by-case basis.</p>
+                </div>
+            </div>
+			
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(event)">
+                    <span class="faq-toggle">▼</span>
+                    Is Ban ID a real ID?
+                </h4>
+                <div class="faq-answer">
+                    <p>Absolutely not. On this page, we are sharing the code block responsible for the ID generation.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(event)">
+                    <span class="faq-toggle">▼</span>
+                    Does TokBot log all messages?
+                </h4>
+                <div class="faq-answer">
+                    <p>No. TokBot analyzes messages in real-time for threats but does not permanently store message content. Messages are processed in memory and discarded immediately after analysis. Only detection events (bans, flagged links, caught images) are logged.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(event)">
+                    <span class="faq-toggle">▼</span>
+                    How does image detection work?
+                </h4>
+                <div class="faq-answer">
+                    <p>TokBot uses perceptual hashing to match scam images against a global database of known phishing and scam content. This allows detection of slightly modified versions of the same image. We also analyze text in images (OCR) and scan for QR codes linking to malicious sites.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(event)">
+                    <span class="faq-toggle">▼</span>
+                    What should I do if TokBot is blocking legitimate content?
+                </h4>
+                <div class="faq-answer">
+                    <p>Report it in our support server with details. False positives are rare but taken seriously. We can review flagged content and adjust detection patterns. You can also request removal from the scam database if you believe you were incorrectly flagged.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h4 onclick="toggleFAQ(event)">
+                    <span class="faq-toggle">▼</span>
+                    Is TokBot affiliated with Discord?
+                </h4>
+                <div class="faq-answer">
+                    <p>No. TokBot is an independent community bot created to enhance server security. It is not affiliated with or endorsed by Discord Inc.</p>
+                </div>
+            </div>
+        
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                Database Structure
+            </div>
+            <div class="expandable-section-content">
+                <p>TokBot maintains two ban databases with different purposes. The public database is shared across servers for protection. The internal database tracks full details for appeal and audit purposes.</p>
+
+                <h3>Public Database (scammers.json)</h3>
+                <p>This is the database shared globally to protect all TokBot-protected servers. It's minimal by design:</p>
+                <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+{
+  "123456789": {
+    "uid": 123456789,
+    "username": "detected_scammer",
+    "ban_type": "Image Detection",
+    "reason": "Phishing scam",
+    "manual": false,
+    "timestamp": "2024-01-15T10:30:00Z"
+  }
+}
+
+Fields: 6
+Size per entry: ~150 bytes
+Purpose: Cross-server protection blacklist
+Access: Loaded into RAM on startup
+                </pre> 
+			
+            <h3>Internal Database (kept private, server-side only)</h3>
+            <p>This is our internal audit log with full context. It's NOT shared or publicized:</p>
+            <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+{
+  "123456789": {
+    "ban_id": "aBc1-dEf2-gHi3-jKl4-mNo5-pQr6",
+    "uid": 123456789,
+    "username": "detected_scammer",
+    "msg_id": 987654321,               // Discord message ID
+    "sim": 0.94,                       // Similarity score (0-1)
+    "server_id": 555444333222,         // Where it was caught
+    "ban_type": "Image Detection",
+    "reason": "Phishing scam",
+    "manual": false,
+    "timestamp": "2024-01-15T10:30:00Z",
+    "history": [...],                  // Previous bans if re-offender
+    "roles_backup": {...},             // User's roles (for appeal restoration)
+    "is_sl": false,
+    "source": "TokBot MB"
+  }
+}
+
+Fields: 13 (vs 6 in public)
+Size per entry: ~500-1000 bytes
+Purpose: Internal auditing, appeals, debugging
+Access: Server-side only, not broadcast
+            </pre>
+
+            <h3>Side-by-Side Comparison</h3>
+            <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem;">
+                <tr style="border-bottom: 1px solid var(--border); background: var(--bg-card);">
+                    <th style="padding: 0.75rem; text-align: left; font-weight: 600;">Field</th>
+                    <th style="padding: 0.75rem; text-align: left; font-weight: 600;">Public</th>
+                    <th style="padding: 0.75rem; text-align: left; font-weight: 600;">Internal</th>
+                    <th style="padding: 0.75rem; text-align: left; font-weight: 600;">Why the difference?</th>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">uid</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Both need user ID</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">username</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">For identification</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">ban_type</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Public needs threat type</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">reason</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Transparency in both</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">timestamp</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Both track when</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">manual</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Appeal eligibility</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">ban_id</td>
+                    <td style="padding: 0.75rem;">✗</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Internal audit reference</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">msg_id</td>
+                    <td style="padding: 0.75rem;">✗</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Evidence trail</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">server_id</td>
+                    <td style="padding: 0.75rem;">✗</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Where caught (internal)</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">sim</td>
+                    <td style="padding: 0.75rem;">✗</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Detection confidence</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">history</td>
+                    <td style="padding: 0.75rem;">✗</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Repeat offender tracking</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">roles_backup</td>
+                    <td style="padding: 0.75rem;">✗</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Appeal restoration data</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border);">
+                    <td style="padding: 0.75rem;">source</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">✓</td>
+                    <td style="padding: 0.75rem;">Our source of the blacklist</td>
+                </tr>
+            </table>
+
+            <h3>Ban ID V2 Generation</h3>
+            <p>Internal ban IDs are cryptographically random, not sequential:</p>
+            <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+def generate_ban_id() -> str:
+    chars = string.ascii_letters + string.digits  # a-z, A-Z, 0-9
+    return '-'.join(''.join(random.choices(chars, k=4)) for _ in range(6))
+
+Result: aBc1-dEf2-gHi3-jKl4-mNo5-pQr6
+
+Format: XXXX-XXXX-XXXX-XXXX-XXXX-XXXX (6 groups of 4 random alphanumeric)
+Uniqueness: Regenerates if collision detected
+Purpose: Appeal reference code (internal only, never shared)
+            </pre>
+
+
+            <h3>Key Privacy Difference</h3>
+            <p><strong>Public database</strong> is loaded into RAM for fast lookups across servers. Every 50 servers has a copy for protection.</p>
+            <p><strong>Internal database</strong> is server-side only. It contains sensitive audit data that never leaves our infrastructure. The message ID, similarity score, and role backups are used for appeals and debugging—not shared with anyone.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                Technical Implementation
+            </div>
+            <div class="expandable-section-content">
+<h3>How Image Detection Works (Privacy-Respecting)</h3>
+            <p>We use perceptual hashing, not facial recognition or content analysis:</p>
+            <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+User uploads image → Hash algorithm processes image → 20-char hash generated → 
+Hash compared to known scams → Original image discarded from memory
+            </pre>
+            <p><strong>Privacy benefit:</strong> We never store the actual image. We only store a mathematical fingerprint. The image cannot be reconstructed from the hash.</p>
+
+            <h3>What Never Touches Disk</h3>
+            <p>Messages, links, and images are checked against our threat databases entirely in memory. If nothing matches, everything is discarded immediately. Nothing below is ever written to disk:</p>
+            <ul>
+                <li>Individual message content</li>
+                <li>Full images (only hashes)</li>
+                <li>User conversation history</li>
+                <li>DM content</li>
+                <li>Attachment metadata</li>
+                <li>Voice/video channel activity</li>
+                <li>User IP addresses</li>
+            </ul>
+
+            <h3>Legacy Ban IDs (V1)</h3>
+            <p>A small number of older records (23 total) still use a legacy sequential Ban ID system rather than the random ID generation described in the Database Structure section above. These IDs are just incrementing numbers—no user data is encoded in them. If you were blacklisted under a V1 ID, contact staff and they can look it up for you.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                Token Encryption & Security
+            </div>
+            <div class="expandable-section-content">
+            
+                <h3>Token Encryption (Hardened Fernet with Key Management)</h3>
+                <p>Your refresh token is encrypted using a <strong>hardened implementation</strong> of Fernet symmetric encryption, with key versioning, expiration, and integrity verification:</p>
+                <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">Encryption Algorithm: Fernet (AES-128-CBC + HMAC-SHA256)
+Key Storage: Server-side only, restricted file permissions (0o600)
+Token Expiration: 90 days (configurable)
+Integrity: SHA256 hash + HMAC comparison on every decrypt
+
+Security Properties:
+  Authenticated encryption (detects tampering)
+  HMAC timing-safe comparison (prevents timing attacks)
+  Token expiration enforced on every access
+  Key never transmitted (server-side only)
+  All operations logged for audit
+            </pre>
+
+			<h3>Key Generation & Management</h3>
+			<p>The encryption key is automatically generated on first run with cryptographically secure random data. Keys are stored server-side with restricted file permissions and never exposed.</p>
+
+			<h3>Audit Logging</h3>
+			<p>All token operations (encryption, decryption, expiration, tampering detection) are logged for security monitoring. User IDs are hashed in these logs — the full user ID only exists in memory during the operation itself.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                /rejoin Command & OAuth2 Guild Join
+            </div>
+            <div class="expandable-section-content">
+                
+                <h3>What is /rejoin?</h3>
+                <p>The <code>/rejoin</code> command allows users who have been removed or banned from a server to request re-entry. It uses Discord's OAuth2 <code>guilds.join</code> scope to add users back to servers they left or were removed from.</p>
+
+                <h3>How /rejoin Works</h3>
+                <p>The process involves three steps and uses stateful OAuth2 flow for security:</p>
+                <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+Step-by-Step Process:
+
+1. User runs /rejoin command with server ID
+2. Bot generates random state token (16 bytes hex)
+3. Bot creates OAuth2 authorization URL with guilds.join scope
+4. User clicks link → Discord asks for authorization
+5. User authorizes → Discord redirects to OAUTH_REDIRECT_URI
+6. Frontend captures redirect URL from browser
+7. Bot extracts authorization code from URL
+8. Bot exchanges code for access token (with guilds.join scope)
+9. Bot calls Discord API: POST /guilds/{guild_id}/members/{user_id}
+10. User is added to server
+11. Session token cleaned up
+                </pre>
+
+                <h3>Security Measures</h3>
+                <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+  State Token Protection
+  └─ Random 16-byte hex state token
+  └─ Prevents CSRF attacks
+  └─ Verified on callback
+
+  Session Expiration
+  └─ Tokens expire after 5 minutes
+  └─ Prevents token reuse/hijacking
+  └─ Timestamp verified on submission
+
+  User Validation
+  └─ Blacklisted users (rats) cannot rejoin
+  └─ User ID verified against state token
+  └─ Guild existence verified before OAuth
+
+  Rate Limiting
+  └─ Can only initiate one rejoin per 60 seconds
+  └─ Prevents brute force attempts
+
+  Scope Limitation
+  └─ Only requests guilds.join, identify, offline_access
+  └─ No access to DMs, messages, or guild data
+  └─ Access token used only for guild membership
+
+  Token Cleanup
+  └─ State tokens deleted after use
+  └─ Expired sessions automatically pruned
+                </pre>
+
+                <h3>Privacy & Data Handling</h3>
+                <p><strong>What is collected:</strong></p>
+                <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+During /rejoin flow:
+├─ User ID (temporary, used only for this session)
+├─ Guild ID (the server being rejoined)
+├─ State token (16-byte random value)
+├─ Timestamp (session creation time)
+└─ Authorization code (immediately exchanged for token)
+
+After rejoin completes:
+├─ Session data deleted from memory
+├─ State token removed
+├─ Authorization code discarded
+└─ Access token NOT stored (only used once to add user)
+
+Long-term storage:
+└─ NONE - No permanent record of rejoin requests
+└─ Discord's audit log records the add member action
+└─ User is simply a normal member of the guild
+                </pre>
+
+                <h3>Potential Privacy Concerns & Why We're Transparent</h3>
+                <p>The <code>guilds.join</code> scope is powerful and has been misused by malicious bots. Here's why we use it responsibly:</p>
+                <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+  Concern: Bots could add users to servers without consent
+  Mitigation: 
+  └─ User explicitly clicks authorize button
+  └─ Discord shows explicit permission prompt
+  └─ User can revoke access anytime in Discord settings
+  └─ We only use it when user requests /rejoin
+
+ Concern: Access tokens could be stolen/misused
+ Mitigation:
+  └─ Tokens are NOT stored anywhere
+  └─ Used once and immediately discarded
+  └─ Sent over HTTPS only
+  └─ Expire after 5 minutes if not used
+  └─ Can only add user to guild they requested
+
+ Concern: User data could be exfiltrated
+ Mitigation:
+  └─ We only request guilds.join, identify, offline_access
+  └─ We don't request message history, DM access, etc.
+  └─ We only call: POST /guilds/{id}/members/{id}
+  └─ No other API calls made with this token
+
+ Concern: Offline access token misuse
+ Mitigation:
+  └─ Offline token requested but never stored
+  └─ If stored, would only allow guild.join scope
+  └─ User can revoke in Discord settings anytime
+  └─ Token rotates if user re-authorizes
+                </pre>
+
+                <h3>User Control</h3>
+                <p>You have full control over your authorization:</p>
+                <pre style="background: var(--bg-card); padding: 1rem; border-radius: 6px; overflow-x: auto; font-size: 0.85rem;">
+To revoke access:
+1. Go to User Settings → Authorized Apps
+2. Find "TokBot" in the list
+3. Click "Revoke" next to its entry
+4. Confirm revocation
+
+Effect:
+├─ OAuth token becomes invalid
+├─ TokBot can no longer use guilds.join
+├─ You can still use /rejoin (new auth flow)
+└─ Takes effect immediately
+                </pre>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="expandable-section-header" onclick="toggleSection(event)">
+                <span class="expandable-section-toggle">▼</span>
+                Commitment to Transparency
+            </div>
+            <div class="expandable-section-content">
+<p>We believe in open communication with our community. This portal is updated regularly as our features evolve. If you have questions not covered here, please reach out. Source code available on request for independent security audits.</p>
+        
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h3>Questions or Concerns?</h3>
+            <p>Join our support server to speak with us directly about any questions regarding privacy, permissions, or security practices.</p>
+            <a href="https://dsc.gg/tokbotsupport" target="_blank" rel="noopener noreferrer">Join Support Server</a>
+        </div>
+
+        <footer>
+            <p>TokBot – Discord Anti-Bot System. Not affiliated with Discord Inc.</p>
+            <p>
+                <a href="transparency.html">Transparency</a> &middot;
+                <a href="privacy.html">Privacy Policy</a> &middot;
+                <a href="terms.html">Terms of Service</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        (function() {
+            const themes = ['dark', 'sunset', 'light'];
+            const themeMap = {
+                dark: 'theme-dark',
+                sunset: 'theme-sunset',
+                light: 'theme-light'
+            };
+
+            function setTheme(theme) {
+                if (!themes.includes(theme)) return;
+                const bodyClass = themeMap[theme];
+                document.body.className = bodyClass;
+                localStorage.setItem('tokbot_theme', theme);
+                document.querySelectorAll('.theme-btn').forEach(btn => {
+                    if (btn.getAttribute('data-theme') === theme) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
+
+            const savedTheme = localStorage.getItem('tokbot_theme');
+            if (savedTheme && themes.includes(savedTheme)) {
+                setTheme(savedTheme);
+            } else {
+                setTheme('dark');
+            }
+
+            const toggleContainer = document.getElementById('themeToggle');
+            if (toggleContainer) {
+                toggleContainer.addEventListener('click', (e) => {
+                    const btn = e.target.closest('.theme-btn');
+                    if (!btn) return;
+                    const theme = btn.getAttribute('data-theme');
+                    if (theme) setTheme(theme);
+                });
+            }
+        })();
+
+        function toggleFAQ(event) {
+            const faqItem = event.currentTarget.closest('.faq-item');
+            const answer = faqItem.querySelector('.faq-answer');
+            const toggle = faqItem.querySelector('.faq-toggle');
+            answer.classList.toggle('open');
+            toggle.classList.toggle('open');
+        }
+
+        function toggleSection(event) {
+            const header = event.currentTarget;
+            const content = header.nextElementSibling;
+            const toggle = header.querySelector('.expandable-section-toggle');
+            content.classList.toggle('open');
+            toggle.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
