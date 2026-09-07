@@ -1,2 +1,4 @@
 # TokBot
-website of tokbot for deployin it on github pages, scammer database (public database) and the public template list
+tokbot things. website source file, investigations, public datbase, blacklist templates, images used on the website, etc. 
+
+dsc.gg/tokbot && dsc.gg/tokbotsupport
