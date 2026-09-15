@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Support Server Policy – TokBot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            min-height: 100vh;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        .theme-dark {
+            --bg-primary: rgb(7, 15, 43);
+            --bg-secondary: rgb(27, 26, 85);
+            --bg-card: rgba(7, 15, 43, 0.7);
+            --bg-elevated: rgba(27, 26, 85, 0.5);
+            --text-primary: #f0f4ff;
+            --text-secondary: rgb(146, 144, 195);
+            --border: rgb(83, 92, 145);
+            --accent: rgb(146, 144, 195);
+            --accent-hover: rgb(83, 92, 145);
+        }
+
+        .theme-light {
+            --bg-primary: rgb(249, 248, 246);
+            --bg-secondary: rgb(239, 233, 227);
+            --bg-card: rgba(249, 248, 246, 0.8);
+            --bg-elevated: rgba(239, 233, 227, 0.5);
+            --text-primary: #1a1a2e;
+            --text-secondary: rgb(83, 92, 145);
+            --border: rgb(217, 207, 199);
+            --accent: rgb(146, 144, 195);
+            --accent-hover: rgb(83, 92, 145);
+        }
+
+        .theme-sunset {
+            --bg-primary: rgb(76, 58, 81);
+            --bg-secondary: rgb(119, 67, 96);
+            --bg-card: rgba(76, 58, 81, 0.7);
+            --bg-elevated: rgba(119, 67, 96, 0.5);
+            --text-primary: #fff2e0;
+            --text-secondary: #ffdfb8;
+            --border: rgb(178, 80, 104);
+            --accent: rgb(231, 171, 121);
+            --accent-hover: rgb(209, 144, 95);
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .brand {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .theme-toggle {
+            display: flex;
+            gap: 0.5rem;
+            background: var(--bg-secondary);
+            padding: 0.25rem;
+            border-radius: 40px;
+            border: 1px solid var(--border);
+        }
+
+        .theme-btn {
+            background: transparent;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 32px;
+            font-weight: 500;
+            cursor: pointer;
+            color: var(--text-secondary);
+            transition: 0.1s;
+        }
+
+        .theme-btn.active {
+            background: var(--accent);
+            color: #ffffff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        header.page-header {
+            margin-bottom: 2.5rem;
+        }
+
+        header.page-header h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), #b18aff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 0.6rem;
+        }
+
+        header.page-header p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .notice {
+            background: var(--bg-elevated);
+            border-radius: 16px;
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.4rem;
+            margin-bottom: 2.5rem;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        section {
+            margin-bottom: 2.2rem;
+        }
+
+        section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .rule {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.4rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .rule-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.6rem;
+        }
+
+        .rule-explanation {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .warning-box {
+            background: var(--bg-elevated);
+            border-left: 4px solid #ff6b6b;
+            padding: 1rem 1.4rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .info-box {
+            background: var(--bg-elevated);
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.4rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        a.inline-link {
+            color: var(--accent);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 680px) {
+            .container {
+                padding: 1.5rem;
+            }
+            header.page-header h1 {
+                font-size: 1.9rem;
+            }
+            .brand {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body class="theme-dark">
+    <div class="container">
+        <nav>
+            <a href="index.html" class="logo-area">
+                <img class="logo" src="https://raw.githubusercontent.com/Unknowndestroy/TokBot/main/logo/_2A1D78FA-FC62-4CB5-B73B-AE9A8A092C18.png" alt="TokBot logo" crossorigin="anonymous">
+                <span class="brand">TokBot</span>
+            </a>
+            <div class="theme-toggle" id="themeToggle">
+                <button class="theme-btn" data-theme="dark">Dark</button>
+                <button class="theme-btn" data-theme="sunset">Sunset</button>
+                <button class="theme-btn" data-theme="light">Light</button>
+            </div>
+        </nav>
+
+        <a href="index.html" class="back-link">Back to TokBot</a>
+
+        <header class="page-header">
+            <h1>Support Server Policy</h1>
+            <p>Last updated: September 7, 2026</p>
+        </header>
+
+        <div class="notice">
+            This policy applies to all members of the TokBot Support Server. By joining and participating in this server, you agree to comply with these rules as well as the
+            <a class="inline-link" href="terms.html">Terms of Service</a>. Violations may result in warnings, timeouts, kicks, or permanent bans.
+        </div>
+
+        <section>
+            <h2>Overview</h2>
+            <p>
+                The TokBot Support Server is a community space for getting help, reporting issues, submitting appeals, and discussing TokBot-related topics. To maintain a healthy and productive environment, all members must follow these rules. Our staff are committed to enforcing these policies fairly and consistently.
+            </p>
+            <div class="info-box">
+                <strong>Language Policy:</strong> General swearing is allowed, but racial, sexual, family-targeted, violence-based, or child-abuse-based language is strictly prohibited and will result in immediate action.
+            </div>
+        </section>
+
+        <section>
+            <h2>Enforcement & Consequences</h2>
+            <p>
+                Violations of these rules result in graduated consequences based on severity and intent:
+            </p>
+            <ul>
+                <li><strong>Minor violations:</strong> Warning or first offense removal of content</li>
+                <li><strong>Moderate violations:</strong> Timeouts (temporary mutes) ranging from 1 hour to 7 days</li>
+                <li><strong>Severe violations:</strong> Kicks or bans from the support server</li>
+                <li><strong>Extreme violations:</strong> Global blacklisting from TokBot and potential reporting to authorities (CSAM, threats, doxxing, illegal activity)</li>
+            </ul>
+            <p>
+                Staff have discretion in enforcement but will always act in the community's best interest. Repeated violations result in harsher penalties. Appeals can be submitted through the ticket system.
+            </p>
+        </section>
+
+        <section>
+            <h2>Contact & Appeals</h2>
+            <p>
+                If you have questions about these rules or wish to appeal an action, please open a ticket in the support server. Our staff will review your case fairly and respond as soon as possible.
+            </p>
+        </section>
+
+        <section>
+            <h2>Rules</h2>
+
+            <div class="rule">
+                <div class="rule-title">Rule #1: Do not open any tickets without a valid reason</div>
+                <div class="rule-explanation">
+                    Tickets are a support tool for genuine issues. Do not create tickets for spam, testing, or trivial matters. Valid reasons include reporting bugs, submitting appeals, requesting assistance with TokBot features, or other legitimate support needs. Frivolous tickets waste staff time and will result in a warning.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #2: No NSFW</div>
+                <div class="rule-explanation">
+                    No sexually explicit content, pornography, or other adult material is allowed anywhere in the server. This includes images, videos, links, and text. Violations will result in immediate removal of content and a warning or timeout.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #3: No Spamming</div>
+                <div class="rule-explanation">
+                    Do not flood channels with repeated messages, excessive caps, or disruptive content. Spamming includes posting the same message multiple times, sending rapid-fire messages to flood chat, or posting unrelated content in rapid succession. This disrupts conversations and will result in a warning or timeout.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #4: No Self-promotion</div>
+                <div class="rule-explanation">
+                    Do not advertise your own bots, servers, products, or services without permission. This includes links to external Discord servers, streaming platforms, social media, or commercial content. Self-promotion dilutes the support server's purpose and will result in message removal and warnings.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #5: Keep all conversations respectful and civil</div>
+                <div class="rule-explanation">
+                    Treat all members and staff with respect. Disagreements should be handled maturely and constructively. Avoid personal attacks, insults, condescension, or disrespect. A respectful environment benefits everyone and helps us resolve issues faster.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #6: No toxicity, harassment, or hate speech</div>
+                <div class="rule-explanation">
+                    Toxic behavior, including harassment, bullying, or any form of hate speech, will not be tolerated. This includes directed insults, mocking, intimidation, or creating a hostile environment for others. Such behavior will result in immediate action, including timeouts or bans.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #7: Respect all staff members and follow their instructions</div>
+                <div class="rule-explanation">
+                    Our staff enforce these rules to keep the server safe and functional. Treat staff with the same respect you show to other members. Follow their instructions and don't argue about moderation decisions in chat. If you disagree with an action, submit a formal appeal through the appropriate channels.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #8: Keep conversations in their designated channels</div>
+                <div class="rule-explanation">
+                    Each channel has a specific purpose. Use them accordingly: support tickets go in #tickets, appeals in #appeals, general chat in #general, etc. Off-topic discussions in the wrong channel clutter the server and make it harder for staff to help people. Channel organization is important for efficiency.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #9: Do not share or solicit personal identifiable information (PII)</div>
+                <div class="rule-explanation">
+                    Do not share your own or others' personal information such as real names, phone numbers, email addresses, home addresses, IP addresses, or other identifying details. Protecting privacy is essential for everyone's safety. Never ask others for this information.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #10: Follow the Discord Terms of Service and Community Guidelines</div>
+                <div class="rule-explanation">
+                    All Discord's official rules apply here. You must be at least 13 years old to use Discord and this server. Violations of Discord's ToS—such as underage access, ban evasion on Discord, or illegal activity—will result in immediate action against your account.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #11: No Ban-evasion</div>
+                <div class="rule-explanation">
+                    If you have been banned from this server or globally blacklisted from TokBot, do not attempt to rejoin using alternate accounts or ban evasion methods. Ban evasion will result in permanent global blacklisting of all associated accounts and IP ranges where applicable.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #12: No CSAM, Nudes, Gore</div>
+                <div class="rule-explanation">
+                    Child Sexual Abuse Material (CSAM), explicit nudes, and graphic violence or gore are absolutely prohibited. If you must share sensitive content as evidence for a report, it must be heavily censored and spoilered. Unspoilered or uncensored sharing of such content will result in immediate ban and reporting to authorities.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #13: No Discrimination, Homophobia, Racism, Sexism or Trolling</div>
+                <div class="rule-explanation">
+                    Discrimination of any kind is not tolerated, even "as a joke." This includes racist remarks, homophobic slurs, sexist comments, or intentional trolling to provoke others. Such behavior creates a hostile environment and will result in immediate action, including bans.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #14: No discussing self-harm</div>
+                <div class="rule-explanation">
+                    Do not discuss methods, glorify, encourage, or normalize self-harm or self-injury. If you or someone you know is struggling, please reach out to a mental health professional or crisis helpline. This server is not a substitute for professional mental health support.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #15: No jokes about grooming, CSAM or suicide</div>
+                <div class="rule-explanation">
+                    Jokes, memes, or casual comments about child exploitation, CSAM, or suicide are not appropriate and will be removed immediately. These topics cause real harm and normalize serious issues. Such violations will result in warnings or bans depending on severity.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #16: No unverified accusations</div>
+                <div class="rule-explanation">
+                    Do not make public accusations without evidence. Claims without proof and slander will be removed, and repeated violations may result in warnings, timeouts, or bans. If you have evidence of rule-breaking, submit it through the proper channels (tickets or a staff member) rather than accusing publicly.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #17: No advocacy of violence, self-harm or suicide</div>
+                <div class="rule-explanation">
+                    Do not advocate for, encourage, or promote violence against yourself or others, self-harm, or suicide. This includes encouraging others or presenting it as a solution to problems. Such content poses serious harm and will result in immediate ban and possible reporting.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #18: No bot abuse</div>
+                <div class="rule-explanation">
+                    Do not abuse bot commands or features by intentionally causing spam, exploiting bugs maliciously, or trying to break the bot. This includes using commands excessively to flood chat, testing detection mechanisms, or attempting to trigger unintended behavior. Bot abuse will result in timeouts or bans.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #19: No flirting or e-dating</div>
+                <div class="rule-explanation">
+                    This server is for support and community discussion, not romance. Do not engage in flirting, romantic role-play, or online dating behavior. Violations will result in warnings or removal.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #20: Don't just say "Hi" in chat</div>
+                <div class="rule-explanation">
+                    Sending only "Hi" or similar one-word greetings demonstrates that you haven't read the rules and will result in a warning. Contribute meaningfully to conversations. This rule helps us ensure members understand and accept the server's policies.
+                </div>
+                <div class="warning-box">
+                    <strong>Important:</strong> Do not mention this rule to users who break it. If a member leaves after receiving a warning for this violation, they will be permanently banned on return.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #21: No harassment or bullying</div>
+                <div class="rule-explanation">
+                    We will not tolerate harassment, bullying, cyberbullying, hate speech, or disrespect toward others. If you experience harassment, take a screenshot and submit a ticket. If a staff member harasses you, report to a higher-ranking staff member or the server founder. All reports will be taken seriously.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #22: No Toxic Behaviour</div>
+                <div class="rule-explanation">
+                    Toxic behavior includes being disrespectful, acting disruptively, excessive spam, or generally making the server an unpleasant place. We want to keep this server clean and welcoming. Persistent toxic behavior will result in timeouts or bans.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #23: Do not abuse glitches or loopholes</div>
+                <div class="rule-explanation">
+                    If you discover a bug or glitch, report it to staff through a ticket rather than exploiting it. Intentionally abusing glitches for advantage, whether in TokBot or the server itself, undermines the integrity of the system and will result in warnings or bans.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #24: Do not impersonate or mislead members or staff</div>
+                <div class="rule-explanation">
+                    Do not pretend to be someone else, impersonate staff members, or use misleading usernames designed to confuse others. Impersonation erodes trust and will result in immediate action, including bans.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #25: No illegal activity</div>
+                <div class="rule-explanation">
+                    Do not plan, coordinate, or encourage anything illegal in the server. This includes discussing methods for hacking, scamming, fraud, or other crimes. Illegal activity will result in removal and possible reporting to authorities.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #26: No illegal off-server cooperation</div>
+                <div class="rule-explanation">
+                    You must not engage in illegal activity outside the server if you are affiliated with or represent this server or TokBot. Your actions reflect on the community, and illegal conduct will result in global blacklisting.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #27: Do not DM staff directly for support</div>
+                <div class="rule-explanation">
+                    Always open a ticket for support requests. Unsolicited DMs to staff members will likely be ignored or result in removal from the server. Tickets ensure your request is logged, tracked, and handled fairly by the appropriate staff member.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #28: Knowingly submitting false reports or fabricated evidence</div>
+                <div class="rule-explanation">
+                    Submitting false reports or fake evidence wastes staff time and undermines trust. This is a serious violation and will result in a ban from the support server and possible global blacklisting from TokBot.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #29: Do not discuss methods to bypass protection or exploits</div>
+                <div class="rule-explanation">
+                    Do not share, discuss, or ask about methods to bypass TokBot's anti-bot protections, scams, or exploits. Such discussions encourage harmful behavior and will result in immediate global blacklisting.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #30: No alternate account evasion</div>
+                <div class="rule-explanation">
+                    Using alternate accounts to evade bans, avoid timeouts, or impersonate others is prohibited. All associated accounts will be actioned (banned or blacklisted) accordingly. We track patterns and will enforce this consistently.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #31: Do not abuse bot commands or exploit bugs</div>
+                <div class="rule-explanation">
+                    Excessive command use, automated interactions, or attempts to exploit bot bugs will result in timeouts. Use commands responsibly and report bugs through the proper channels instead of testing them in live channels.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #32: Threatening, doxxing, or sharing personal information</div>
+                <div class="rule-explanation">
+                    Threatening members, doxxing (sharing personal information), or attempting to expose someone's real identity is strictly prohibited. Such violations will result in immediate global blacklisting and possible reporting to law enforcement.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #33: Do not appeal bans in public channels</div>
+                <div class="rule-explanation">
+                    If you wish to appeal a ban or staff action, open a ticket privately. Public appeals in chat will be removed, and repeated violations may result in an extension of your ban.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #34: Do not share internal server configurations</div>
+                <div class="rule-explanation">
+                    Do not share or discuss internal server configurations, webhooks, bot tokens, or staff tools. This information could be misused to harm the server. Violations will result in immediate removal and possible bans.
+                </div>
+            </div>
+
+            <div class="rule">
+                <div class="rule-title">Rule #35: Staff are held to the same standards</div>
+                <div class="rule-explanation">
+                    Staff members are bound by the same rules as regular members and will be held accountable for violations. If a staff member breaks a rule, report it to a higher-ranking staff member or the server founder. Staff are expected to set a good example.
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            TokBot – Discord Scam & Raid Protection System. Not affiliated with Discord Inc.
+        </footer>
+    </div>
+
+    <script>
+        (function() {
+            const themes = ['dark', 'sunset', 'light'];
+            const themeMap = {
+                dark: 'theme-dark',
+                sunset: 'theme-sunset',
+                light: 'theme-light'
+            };
+
+            function setTheme(theme) {
+                if (!themes.includes(theme)) return;
+                document.body.className = themeMap[theme];
+                localStorage.setItem('tokbot_theme', theme);
+                document.querySelectorAll('.theme-btn').forEach(btn => {
+                    if (btn.getAttribute('data-theme') === theme) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
+
+            const savedTheme = localStorage.getItem('tokbot_theme');
+            setTheme(savedTheme && themes.includes(savedTheme) ? savedTheme : 'dark');
+
+            const toggleContainer = document.getElementById('themeToggle');
+            if (toggleContainer) {
+                toggleContainer.addEventListener('click', (e) => {
+                    const btn = e.target.closest('.theme-btn');
+                    if (!btn) return;
+                    const theme = btn.getAttribute('data-theme');
+                    if (theme) setTheme(theme);
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
